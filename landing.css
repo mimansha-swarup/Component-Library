@@ -1,0 +1,55 @@
+@import url('./css/main.css');
+
+body{
+    background-color: var(--Elevation-0);
+    background-color: var(--Dark-0);
+    color: var(--Light-0);
+    line-height: 1.4rem;
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.25rem 3rem;
+    color: var(--Light-3);
+    box-shadow: var(--Shadow-03);
+    background-color: var(--Elevation-3);
+    border-radius: 0rem 0rem .8rem .8rem;
+}
+
+.navbar-brand{
+    margin-right: auto;
+    margin-bottom: 0;
+    color: var(--Green-3);
+    font-size: 2rem;
+}
+.navbar nav{
+    margin-left: auto;
+}
+.small-text{
+    color: var(--Green-0);    
+}
+
+.hero-landing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+    padding: 1rem 3rem;
+    height: 100%;
+    text-align: center;
+
+}
+.hero-landing-action{
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.landing-cont{
+    width: 80%;
+    margin: auto;
+}
