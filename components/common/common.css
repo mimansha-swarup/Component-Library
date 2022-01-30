@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@import url('../button/button.css');
+@import url('../typography/typography.css');
+
+*{
+    /* COLORS */
+    --Dark-4 : #C7C9D9 ;
+    --Dark-3 : #8F90A6 ;    /* Border */  
+    --Dark-2 : #555770 ;
+    --Dark-1 : #28293D ;
+    --Dark-0 : #1C1C28 ;
+
+    --Light-4 : #FFFFFF ;
+    --Light-3 : #FAFAFC ;    /* Border  dARK4*/  
+    --Light-2 : #F2F2F5 ;
+    --Light-1 : #EBEBF0 ;
+    --Light-0 : #E4E4EB ;    
+ 
+    --Red-4 : #623A42 ;
+    --Red-3 : #FF8080 ;    
+    --Red-2 : #FF5C5C ;
+    --Red-1 : #FF3B3B ;    /* Border */
+    --Red-0 : #E53535 ;    
+
+    --Green-4 : #286053 ;
+    --Green-3 : #57EBA1 ;    
+    --Green-2 : #39D98A ;
+    --Green-1 : #06C270 ;    /* Border */
+    --Green-0 : #05A660 ;    
+ 
+    --Blue-4 : #163E72 ;
+    --Blue-3 : #9DBFF9 ;    
+    --Blue-2 : #5B8DEF ;
+    --Blue-1 : #0063F7 ;    /* Border */
+    --Blue-0 : #004FC4 ;    
+
+    --Yellow-4 : #625B39 ;
+    --Yellow-3 : #FDED72 ;    
+    --Yellow-2 : #FDDD48 ;
+    --Yellow-1 : #FFCC00 ;    /* Border */
+    --Yellow-0 : #E5B800 ;     
+
+    --Orange-4 : #624D3B ;
+    --Orange-3 : #FCCC75 ;    
+    --Orange-2 : #FDAC42 ;
+    --Orange-1 : #FF8800 ;    /* Border */
+    --Orange-0 : #E57A00 ;    
+
+    --Teal-4 : #3A6264 ;
+    --Teal-3 : #A9EFF2 ;    
+    --Teal-2 : #73DFE7 ;
+    --Teal-1 : #00CFDE ;    /* Border */
+    --Teal-0 : #00B7C4 ;    
+
+    --Purple-4 : #393D69 ;
+    --Purple-3 : #DDA5E9 ;    
+    --Purple-2 : #AC5DD9 ;   /* Border */
+    --Purple-1 : #6600CC ; 
+    --Purple-0 : #4D0099 ;  
+    
+    --Elevation-6 : #32334D ;   /* Modals, Dialogue */
+    --Elevation-5 : #30324A ;   /* Picker, Popover */
+    --Elevation-4 : #2F3047 ;   /* Card Raised, Button Raised , DropDownMenu*/
+    --Elevation-3 : #2D2E45 ;   /* Navigation Menu Bar */
+    --Elevation-2 : #2C2D42 ;   /* Button Notifiaction Badge */
+    --Elevation-1 : #2A2B40 ;   /* Card, Pressed, Button*/
+    --Elevation-0 : #28293D ;   /* Bg, Alert, btn diabled, Input disabled*/
+    --Elevation--01: #26273B;   /* Focuesd Input */
+    
+  
+    --Shadow--01 : inset 0rem 0.03125rem .25rem rgba(0, 0, 0, 0.32);
+    --Shadow-01 : 0rem 0rem 0.0625rem rgba(40, 41, 61, 0.08), 0rem 0.0625rem 0.125rem rgba(0, 0, 0, 0.32);
+    --Shadow-02 : 0rem 0rem 0.0625rem rgba(0, 0, 0, 0.04), 0rem 0.125rem .25rem rgba(0, 0, 0, 0.32);
+    --Shadow-03 : 0rem 0rem 0.125rem rgba(0, 0, 0, 0.04), 0rem .25rem .5rem rgba(0, 0, 0, 0.32);
+    --Shadow-04 : 0rem 0.125rem .25rem rgba(0, 0, 0, 0.04), 0rem .5rem 1rem rgba(0, 0, 0, 0.32);
+    --Shadow-05 : 0rem 0.125rem .5rem rgba(0, 0, 0, 0.04), 0rem 1rem 1.5rem rgba(0, 0, 0, 0.32);
+    --Shadow-06 : 0rem 0.125rem .5rem rgba(0, 0, 0, 0.08), 0rem 20px 1.25rem rgba(0, 0, 0, 0.32);
+
+    --z-index--1: -1;
+    --z-index-0: 0;
+    --z-index-1: 1 ;
+    --z-index-2: 2;
+    --z-index-3: 3;
+ 
+    --font-heading:'Roboto', sans-serif;
+    --font-body:'Open Sans', sans-serif;
+
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
