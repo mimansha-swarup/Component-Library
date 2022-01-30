@@ -2,7 +2,7 @@
 .docs-container{
     display: flex;
     max-width: 90%;
-    margin: auto;
+    margin:  0 auto 1rem auto;
     gap: 1rem;
 }
 .docs-container .docs-body{
@@ -53,7 +53,7 @@
     background-color: var(--Dark-2);
     margin: 1.5rem 0;
     margin-bottom: 2rem;
-
+    
 }
 
 .showcase{
@@ -71,6 +71,9 @@
 .showcase .btn-float-action{
     position: static;    
 }
+.showcase .alert{
+    width: 100%;    
+}
 .code-snippet {
     display: flex;
     flex-direction: column;
@@ -79,4 +82,14 @@
     padding: 1rem 0;
     margin: .5rem 0;
     overflow: auto;
+}
+
+.col{
+    flex-direction: column;
+}
+
+.sidebar .link-active{
+    color :var(--Teal-2);
+    background-color: var(--Elevation-4);
+    box-shadow: var(--Shadow-02);
 }
