@@ -5,29 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sinister UI</title>
+    <!-- <link rel="icon" href="favicon.ico" type="image/x-icon" /> -->
+    <link rel="icon" type="image/x-icon" href="./assets/Sinister-UI.svg">
+
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="./components/main.css">
     <link rel="stylesheet" href="landing.css">
 </head>
 <body>
     <main class="landing-cont">
 
         <header class="navbar" >
-            <p class="subtitle1 navbar-brand">
-                Sinister UI
+            <!-- <picture class="navbar-band">
+                <img src="./assets/SinisterUI.svg" alt="">
+            </picture> -->
+            <p class="navbar-brand">
+                <a href="./index.html"  >Sinister UI</a>
                 <small class="subtitle2 small-text" >V1.0</small>
             </p>        
             <nav>
-                <a href="#" class="btn btn-text teal subtitle1" >Docs</a>        
+                <a href="./docs.html" class="btn btn-text teal button-txt btn-link" >Docs</a>        
             </nav> 
         </header>
         
         <section class="hero-landing">
-            <h1 class="headline1">Sinister UI</h1>
+            <img src="./assets/Sinister-UI.svg" alt="">
+            <h1 class="headline1">
+                Sinister UI</h1>
             <p class="headline3">A Dark UI Components Library</p>
             <div class="hero-landing-action">
-                <button class="btn btn-contained">Documentation</button>
-                <button class="btn btn-outline orange">GitHub</button>
+                <button class="btn btn-contained large">Docs</button>
+                <button class="btn btn-outline orange large">GitHub</button>
             </div>
         </section>
     </main>
