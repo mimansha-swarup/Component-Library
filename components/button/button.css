@@ -12,6 +12,7 @@
     cursor: pointer;
     box-sizing: border-box;
     box-shadow: var(--Shadow-02);
+    font-family: var(--font-body);
     /* transition: all .4s ease-in-out; */
     background-color: var(--Elevation-2);
     color: var(--Light-1);
