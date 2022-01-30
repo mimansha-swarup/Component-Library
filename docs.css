@@ -1,0 +1,82 @@
+
+.docs-container{
+    display: flex;
+    max-width: 90%;
+    margin: auto;
+    gap: 1rem;
+}
+.docs-container .docs-body{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 3%;
+    background-color: var(--Elevation-1);
+    box-shadow: var(--Shadow-02);
+    border-radius: .5rem;
+    flex-grow: 1;
+    margin: .1rem;
+}
+/* Sidebar */
+.sidebar{
+    padding: 1rem .5rem;
+    background-color: var(--Elevation-1);
+    box-shadow: var(--Shadow-02);
+    border-radius: .5rem;
+    width:14rem ;
+    margin: .1rem;
+}
+.sidebar ul{
+    list-style: none;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar li{
+    padding: .5rem 1.6rem;
+    border-radius: .25rem;
+    text-align: left;
+}
+.sidebar li a{
+    width: 100%;
+    margin:  0;
+    padding:  0;
+    color: inherit;
+}
+.sidebar li:hover{
+    background-color: var(--Elevation-4);
+    box-shadow: var(--Shadow-02);
+}
+
+.line-horz{
+    height: .15rem;
+    border: none;
+    background-color: var(--Dark-2);
+    margin: 1.5rem 0;
+    margin-bottom: 2rem;
+
+}
+
+.showcase{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 1.5rem;
+    margin: 1rem auto;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border : .1rem solid var(--Dark-2);
+    border-radius:.25rem;
+    
+}
+.showcase .btn-float-action{
+    position: static;    
+}
+.code-snippet {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1rem 0;
+    margin: .5rem 0;
+    overflow: auto;
+}
