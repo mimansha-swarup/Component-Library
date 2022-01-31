@@ -1,0 +1,245 @@
+@import url('./main.css');
+
+/*** Buttons ***/
+
+.btn {
+    border: none;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.375em 1.5em;
+    border-radius: 0.375em;
+    margin: 0.1em;
+    cursor: pointer;
+    box-sizing: border-box;
+    box-shadow: var(--Shadow-02);
+    font-family: var(--font-body);
+    /* transition: all .4s ease-in-out; */
+    background-color: var(--Elevation-2);
+    color: var(--Light-1);
+    letter-spacing:.125rem;
+}
+
+/*** Contained Buttons ***/
+
+.btn.btn-contained {
+    background-color: var(--Green-1);
+    border: 2px solid var(--Green-1) ;
+    color: var(--Light-1);
+    opacity: 0.95;
+}
+.btn.btn-contained:hover {
+    background-color: var(--Green-2);
+    border: 2px solid var(--Green-2) ;
+    color: var(--Light-2);
+    transition: all .3s ease-in-out;
+}
+
+.btn.btn-contained.red{
+    background-color: var(--Red-1);
+    border: 2px solid var(--Red-1) ;
+}
+.btn.btn-contained.red:hover {
+    background-color: var(--Red-2);
+    border: 2px solid var(--Red-2);
+}
+
+.btn.btn-contained.yellow {
+    background-color: var(--Yellow-1);
+    border: 2px solid var(--Yellow-1) ;
+    color: var(--Dark-2);
+}
+.btn.btn-contained.yellow:hover {
+    background-color: var(--Yellow-2);
+    border: 2px solid var(--Yellow-2) ;
+}
+
+.btn.btn-contained.orange {
+    background-color: var(--Orange-1);
+    border: 2px solid var(--Orange-1) ;
+}
+.btn.btn-contained.orange:hover {
+    background-color: var(--Orange-2);
+    border: 2px solid var(--Orange-2) ;
+}
+
+.btn.btn-contained.teal {
+    background-color: var(--Teal-1);
+    border: 2px solid var(--Teal-1) ;
+}
+.btn.btn-contained.teal:hover {
+    background-color: var(--Teal-2);
+    border: 2px solid var(--Teal-2) ;
+}
+
+.btn.btn-contained.purple {
+    background-color: var(--Purple-1);
+    border: 2px solid var(--Purple-1) ;
+}
+.btn.btn-contained.purple:hover {
+    background-color: var(--Purple-2);
+    border: 2px solid var(--Purple-2) ;
+}
+
+/***  ***/
+
+/*** Outline Buttons ***/
+
+.btn.btn-outline {
+    color: var(--Green-1);
+    border: 2px solid var(--Green-1) ;
+    background-color: inherit;
+    opacity: 0.95;
+}
+.btn.btn-outline:hover {
+    transition: all .3s ease-in-out;
+    color: var(--Green-3);
+    border: 2px solid var(--Green-3) ;
+}
+
+.btn.btn-outline.red{
+    color: var(--Red-1);
+    border: 2px solid var(--Red-1) ;
+}
+.btn.btn-outline.red:hover {
+    color: var(--Red-3);
+    border: 2px solid var(--Red-3);
+}
+
+.btn.btn-outline.yellow {
+    color: var(--Yellow-1);
+    border: 2px solid var(--Yellow-1) ;
+}
+.btn.btn-outline.yellow:hover {
+    color: var(--Yellow-3);
+    border: 2px solid var(--Yellow-3) ;
+}
+
+.btn.btn-outline.orange {
+    color: var(--Orange-1);
+    border: 2px solid var(--Orange-1) ;
+}
+.btn.btn-outline.orange:hover {
+    color: var(--Orange-3);
+    border: 2px solid var(--Orange-3) ;
+}
+
+.btn.btn-outline.teal {
+    color: var(--Teal-1);
+    border: 2px solid var(--Teal-1) ;
+}
+.btn.btn-outline.teal:hover {
+    color: var(--Teal-3);
+    border: 2px solid var(--Teal-3) ;
+}
+
+.btn.btn-outline.purple {
+    color: var(--Purple-2);
+    border: 2px solid var(--Purple-2) ;
+}
+.btn.btn-outline.purple:hover {
+    color: var(--Purple-3);
+    border: 2px solid var(--Purple-3) ;
+}
+
+/***  ***/
+
+/*** Text Buttons ***/
+
+.btn-text {    
+    color: var(--Green-3);
+    background-color: inherit;
+    border: 2px solid transparent;
+    opacity: 0.95;
+    box-shadow: none;
+    text-shadow: var(--Shadow-02);
+}
+.btn.btn-text:hover {
+    color: var(--Green-1);
+    transition: all .3s ease-in-out;
+}
+
+.btn.btn-text.red{
+    color: var(--Red-3);
+}
+.btn.btn-text.red:hover {
+    color: var(--Red-1);
+}
+
+.btn.btn-text.yellow {
+    color: var(--Yellow-3);
+}
+.btn.btn-text.yellow:hover {
+    color: var(--Yellow-1);
+}
+
+.btn.btn-text.orange {
+    color: var(--Orange-3);
+}
+.btn.btn-text.orange:hover {
+    color: var(--Orange-1);
+}
+
+.btn.btn-text.teal {
+    color: var(--Teal-3);
+}
+.btn.btn-text.teal:hover {
+    color: var(--Teal-1);
+}
+
+.btn.btn-text.purple {
+    color: var(--Purple-3);
+}
+.btn.btn-text.purple:hover {
+    color: var(--Purple-1);
+}
+
+/***  ***/
+
+/*** Icon Buttons ***/
+
+.btn-icon{
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+}
+
+
+/***  ***/
+
+/*** Links Buttons ***/
+.btn-link{
+    color: inherit;
+    text-decoration: none;
+}
+
+/***  ***/
+
+/*** floating action Buttons ***/
+
+.btn-float-action{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 1rem;
+    border-radius: 50%;
+    z-index: var(--z-index-3);
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.medium {
+    padding: .5rem 1.75rem;
+    border-radius: .5rem;
+    font-size: 1rem;
+}
+
+.large {
+    padding: .625rem 2.25rem;
+    border-radius: .725rem;
+    font-size: 1.25rem;
+}

@@ -1,0 +1,37 @@
+@import url('../common/common.css');
+
+.alert{
+    font-family: var(--font-body);
+    font-size: 1rem;
+    padding: .875rem 2rem .875rem 1rem;
+    background-color: var(--Elevation--01);
+    box-sizing: border-box;
+    border-left: 2px solid var(--Dark-3);
+    border-radius: .25rem;
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+}
+.alert .alert-text{
+    color: var(--Light-4);
+}
+.alert-success{
+    border-left: .2rem solid var(--Green-3);
+    background-color: var(--Green-4);
+    color: var(--Green-3)
+}
+.alert-error{
+    border-left: .2rem solid var(--Red-3);
+    background-color: var(--Red-4);
+    color: var(--Red-3)
+}
+.alert-warning{
+    border-left: .2rem solid var(--Yellow-3);
+    background-color: var(--Yellow-4);
+    color: var(--Yellow-3)
+}
+.alert-info{
+    border-left: .2rem solid var(--Blue-3);
+    background-color: var(--Blue-4);
+    color: var(--Blue-3)
+}

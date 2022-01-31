@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinister-UI | Documentation</title>
+    <link rel="icon" type="image/x-icon" href="../../assets/Sinister-UI.svg">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../../components/main.css">
+    <link rel="stylesheet" href="../../components/typography/typography.css">
+    <link rel="stylesheet" href="../../docs.css">
+    <link rel="stylesheet" href="../../landing.css">
+</head>
+<body>
+    <header class="navbar" >
+        <p class="navbar-brand">
+            <a href="../../index.html"  >Sinister UI</a>
+            <small class="subtitle2 small-text" >V1.0</small>
+        </p>        
+        <nav>
+            <a href="../../docs.html" class="btn btn-text teal" >Docs</a>        
+        </nav> 
+
+    </header>
+    <main class="docs-container">
+        <aside class="sidebar">
+            <ul>
+                <span class="headline4">Get Started</span>
+                <li>
+                    <a href="#" class="btn btn-text btn-link teal button-txt" >
+                        Installation
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="btn btn-text btn-link teal button-txt" >
+                        Color
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="btn btn-text btn-link teal button-txt" >
+                        Typography
+                    </a>
+                </li>
+            </ul>
+            <hr class="line-horz">
+            <ul>
+                <span class="headline4">Components</span>
+                <a href="../alert/alert.html" class="btn btn-text btn-link teal button-txt" >
+                    <li>
+                        Alert
+                    </li>
+                </a>
+                <a href="#" class="btn btn-text btn-link teal button-txt" >
+                    <li>
+                        Avatar
+                    </li>
+                </a>
+                <a href="#" class="btn btn-text btn-link teal button-txt" >
+                    <li>
+                        Badge
+                    </li>
+                </a>
+                <a href="./button.html" class="btn btn-text btn-link teal button-txt link-active" >
+                    <li>
+                        Button
+                    </li>
+                </a>
+            </ul>
+        </aside>
+        
+        <div class="docs-body">
+            <h1 class="headline1 text-center">Buttons</h1>
+            <p class="body1">
+                Buttons allow users to take actions, and make choices, with a single tap.
+            </p>
+            <section>
+
+                <h2 class="headline2">Types of Button</h2>
+                <p class="body1"> 
+                    There are total 3 types of button components are availabl
+                    <span class="highlight-txt"> btn-contained </span>,
+                    <span class="highlight-txt"> btn-text </span> ,
+                    <span class="highlight-txt"> btn-outline </span>.
+                </p>
+                <div class="showcase">
+                    <button class="btn">Default</button>
+                    <button class="btn btn-contained ">Contain</button>
+                    <button class="btn btn-text">Text</button>
+                    <button class="btn btn-outline">Outline</button>
+                </div>
+                <div class="code-snippet">
+                    <code>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2842%2C43%2C64%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=498&ds=false&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=168%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2522%253EDefault%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-contained%2522%253EContain%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-text%2522%253EText%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline%2522%253EOutline%253C%252Fbutton%253E%250A"
+                        style="width: 100%; height: 100%;  border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+
+                    </code>
+                </div>
+            
+            </section>
+            <hr class="line-horz">
+            <!-- Contained Btns -->
+            <section>
+
+                <h2 class="headline2">Contained Button</h2>
+                <p class="body1"> 
+                    The Contained button components are available in five variant
+                    <span class="highlight-txt"> red</span>,
+                    <span class="highlight-txt"> yellow </span> ,
+                    <span class="highlight-txt"> orange </span> ,
+                    <span class="highlight-txt"> teal </span> ,
+                    <span class="highlight-txt"> purple </span>.
+                </p>
+                <div class="showcase" >
+                    <button class="btn btn-contained ">Primary</button>
+                    <button class="btn btn-contained red">Red</button>
+                    <button class="btn btn-contained yellow">Yellow</button>
+                    <button class="btn btn-contained orange">Orange</button>
+                    <button class="btn btn-contained teal">Teal</button>
+                    <button class="btn btn-contained purple">Purple</button>
+                </div>
+                <div class="code-snippet">
+                    <code>
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2842%2C43%2C64%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=498&ds=false&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=168%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-contained%2520%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-contained%2520red%2522%253ERed%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-contained%2520yellow%2522%253EYellow%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-contained%2520orange%2522%253EOrange%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-contained%2520teal%2522%253ETeal%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-contained%2520purple%2522%253EPurple%253C%252Fbutton%253E%250A"
+                        style="width: 100%; height: 193px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+
+                    </code>
+                </div>
+            
+            </section>
+            <hr class="line-horz">
+            <!-- Outline Btns -->
+            <section>
+
+                <h2 class="headline2">Outline Button</h2>
+                <p class="body1"> 
+                    The Outlined button components are available in five variant
+                    <span class="highlight-txt"> red</span>,
+                    <span class="highlight-txt"> yellow </span> ,
+                    <span class="highlight-txt"> orange </span> ,
+                    <span class="highlight-txt"> teal </span> ,
+                    <span class="highlight-txt"> purple </span>.
+                </p>
+                <div class="showcase" >
+                    <button class="btn btn-outline ">Primary</button>
+                    <button class="btn btn-outline red">Red</button>
+                    <button class="btn btn-outline yellow">Yellow</button>
+                    <button class="btn btn-outline orange">Orange</button>
+                    <button class="btn btn-outline teal">Teal</button>
+                    <button class="btn btn-outline purple">Purple</button>
+                </div>
+                <div class="code-snippet">
+                    <code>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%2842%2C43%2C64%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=498&ds=false&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=168%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-outline%2520%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline%2520red%2522%253ERed%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline%2520yellow%2522%253EYellow%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline%2520orange%2522%253EOrange%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline%2520teal%2522%253ETeal%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline%2520purple%2522%253EPurple%253C%252Fbutton%253E"
+                            style="width: 100%; height: 194px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+
+                    </code>
+                </div>
+            
+            </section>
+            <hr class="line-horz">
+            <!-- Text Btns -->
+            <section>
+
+                <h2 class="headline2">Text Button</h2>
+                <p class="body1"> 
+                    The Text button components are available in five variant
+                    <span class="highlight-txt"> red</span>,
+                    <span class="highlight-txt"> yellow </span> ,
+                    <span class="highlight-txt"> orange </span> ,
+                    <span class="highlight-txt"> teal </span> ,
+                    <span class="highlight-txt"> purple </span>.
+                </p>
+                <div class="showcase" >
+                    <button class="btn btn-text ">Primary</button>
+                <button class="btn btn-text red">Red</button>
+                <button class="btn btn-text yellow">Yellow</button>
+                <button class="btn btn-text orange">Orange</button>
+                <button class="btn btn-text teal">Teal</button>
+                <button class="btn btn-text purple">Purple</button>
+                </div>
+                <div class="code-snippet">
+                    <code>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%2842%2C43%2C64%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=498&ds=false&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=168%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-text%2520%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-text%2520red%2522%253ERed%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-text%2520yellow%2522%253EYellow%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-text%2520orange%2522%253EOrange%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-text%2520teal%2522%253ETeal%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-text%2520purple%2522%253EPurple%253C%252Fbutton%253E"
+                            style="width: 100%; height: 194px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+
+                    </code>
+                </div>
+            
+            </section>
+            <hr class="line-horz">
+            <!-- Icon Btns -->
+            <section>
+
+                <h2 class="headline2">Icon Button</h2>
+                <p class="body1"> 
+                    The Icon button components are available in five variant
+                    <span class="highlight-txt"> red</span>,
+                    <span class="highlight-txt"> yellow </span> ,
+                    <span class="highlight-txt"> orange </span> ,
+                    <span class="highlight-txt"> teal </span> ,
+                    <span class="highlight-txt"> purple </span>. <br>
+                    Also there icons can be placed at beginning , end or only icon.
+                </p>
+                <div class="showcase" >
+                    <button class="btn btn-contained btn-icon "> 
+                        <span class="material-icons">
+                            save_alt
+                        </span>
+                        Primary
+                    </button>
+                    <button class="btn btn-contained btn-icon red">
+                        Red                     
+                        <span btn-icon class="material-icons">
+                            save_alt
+                        </span>
+                    </button>
+                    <button class="btn btn-contained yellow btn-icon">
+                        <span class="material-icons">
+                            save_alt
+                        </span>
+                    </button>
+                    <button class="btn btn-contained orange btn-icon">
+                        <span class="material-icons">
+                            save_alt
+                        </span>
+                        Orange
+                    </button>
+                    <button class="btn btn-contained teal btn-icon">
+                        <span class="material-icons">
+                            save_alt
+                        </span>
+                        Teal
+                    </button>
+                    <button class="btn btn-contained btn-icon purple">
+                        <span class="material-icons">
+                            save_alt
+                        </span>
+                        Purple
+                    </button>
+                </div>
+                <div class="code-snippet">
+                    <code>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%2842%2C43%2C64%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=498&ds=false&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=168%25&si=false&es=2x&wm=false&code=%253C%21--%2520Icon%2520in%2520beginning%2520--%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-contained%2520btn-icon%2520%2522%253E%2520%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520save_alt%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520Primary%250A%253C%252Fbutton%253E%250A%250A%253C%21--%2520Icon%2520in%2520end%2520--%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-contained%2520btn-icon%2520red%2522%253E%250A%2520%2520%2520%2520Red%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cspan%2520btn-icon%2520class%253D%2522material-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520save_alt%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%253C%252Fbutton%253E%250A%250A%253C%21--%2520Only%2520Icon%2520--%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-contained%2520yellow%2520btn-icon%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520%2520btn-start%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520save_alt%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%253C%252Fbutton%253E"
+                            style="width: 100%; height: 227px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+
+                    </code>
+                </div>
+            
+            </section>
+            <hr class="line-horz">
+            <!-- Link Btns -->
+            <section>
+
+                <h2 class="headline2">Link Button</h2>
+                <p class="body1"> 
+                    The Link button components are available in five variant
+                    <span class="highlight-txt"> red</span>,
+                    <span class="highlight-txt"> yellow </span> ,
+                    <span class="highlight-txt"> orange </span> ,
+                    <span class="highlight-txt"> teal </span> ,
+                    <span class="highlight-txt"> purple </span>.
+                </p>
+                <div class="showcase" >
+                    <button class="btn btn-text ">
+                        <a class="btn-link" href="#">Link</a>
+                    </button>
+                    <button class="btn btn-text red">
+                        <a class="btn-link" href="#">Link</a>
+                    </button>
+                    <button class="btn btn-text yellow">
+                        <a class="btn-link" href="#">Link</a>
+                    </button>
+                    <button class="btn btn-text orange">
+                        <a class="btn-link" href="#">Link</a>
+                    </button>
+                    <button class="btn btn-text teal">
+                        <a class="btn-link" href="#">Link</a>
+                    </button>
+                    <button class="btn btn-text purple">
+                        <a class="btn-link" href="#">Link</a>
+                    </button>
+                </div>
+                <div class="code-snippet">
+                    <code>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%2842%2C43%2C64%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=498&ds=false&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=168%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-text%2520%2522%253E%250A%2520%2520%2520%2520%253Ca%2520class%253D%2522btn-link%2522%2520href%253D%2522%2523%2522%253ELink%253C%252Fa%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-text%2520red%2522%253E%250A%2520%2520%2520%2520%253Ca%2520class%253D%2522btn-link%2522%2520href%253D%2522%2523%2522%253ELink%253C%252Fa%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-text%2520yellow%2522%253E%250A%2520%2520%2520%2520%253Ca%2520class%253D%2522btn-link%2522%2520href%253D%2522%2523%2522%253ELink%253C%252Fa%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-text%2520orange%2522%253E%250A%2520%2520%2520%2520%253Ca%2520class%253D%2522btn-link%2522%2520href%253D%2522%2523%2522%253ELink%253C%252Fa%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-text%2520teal%2522%253E%250A%2520%2520%2520%2520%253Ca%2520class%253D%2522btn-link%2522%2520href%253D%2522%2523%2522%253ELink%253C%252Fa%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-text%2520purple%2522%253E%250A%2520%2520%2520%2520%253Ca%2520class%253D%2522btn-link%2522%2520href%253D%2522%2523%2522%253ELink%253C%252Fa%253E%250A%253C%252Fbutton%253E"
+                        style="width: 100%; height: 282px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+
+                    </code>
+                </div>
+            
+            </section>
+            <hr class="line-horz">
+            <!-- FLoating Action Button Btns -->
+            <section>
+
+                <h2 class="headline2">Floating Action Button</h2>
+                <p class="body1"> 
+                    The Floating Action button components are available in five variant
+                    <span class="highlight-txt"> red</span>,
+                    <span class="highlight-txt"> yellow </span> ,
+                    <span class="highlight-txt"> orange </span> ,
+                    <span class="highlight-txt"> teal </span> ,
+                    <span class="highlight-txt"> purple </span>.
+                </p>
+                <div class="showcase" >
+                    <button class="btn btn-contained btn-float-action">
+                        <span class="material-icons">add</span>
+                    </button>
+                    <button class="btn btn-contained red btn-float-action">
+                        <span class="material-icons">add</span>
+                    </button>
+                    <button class="btn btn-contained yellow btn-float-action">
+                        <span class="material-icons">add</span>
+                    </button>
+                    <button class="btn btn-contained orange btn-float-action">
+                        <span class="material-icons">add</span>
+                    </button>
+                    <button class="btn btn-contained teal btn-float-action">
+                        <span class="material-icons">add</span>
+                    </button>
+                    <button class="btn btn-contained purple btn-float-action">
+                        <span class="material-icons">add</span>
+                    </button>                    
+                </div>
+                <div class="code-snippet">
+                    <code>
+                        <iframe
+                            src="https://carbon.now.sh/embed?bg=rgba%2842%2C43%2C64%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=498&ds=false&dsyoff=0px&dsblur=0px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=168%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-contained%2520btn-float-action%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Eadd%253C%252Fspan%253E%250A%253C%252Fbutton%253E"
+                            style="width: 100%; height: 142px; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+
+                    </code>
+                </div>
+            </section>
+
+        </div>
+
+    </main>
+    
+</body>
+</html>
