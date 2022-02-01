@@ -28,16 +28,16 @@
 
 }
 
-.green{
+.badge.green{
     background-color: var(--Green-3);
 }
-.yellow{
+.badge.yellow{
     background-color: var(--Yellow-3);
 }
-.red{
+.badge.red{
     background-color: var(--Red-3);
 }
-.blue{
+.badge.blue{
     background-color: var(--Blue-3);
 }
 
