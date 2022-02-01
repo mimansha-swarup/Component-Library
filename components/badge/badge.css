@@ -1,0 +1,61 @@
+@import url("../main.css");
+
+.badge-wrapper{
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+}
+
+.badge{
+    position: absolute;
+    padding : 0.2rem;
+    min-height: .1rem;
+    min-width: .1rem;
+    aspect-ratio: 1 / 1;
+    background-color: var(--Dark-0);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:var(--Dark-0);
+    font-weight: 600;
+    font-size:.6rem
+}
+.text-badge{
+    aspect-ratio: none;
+    padding: .0675rem .3rem;
+    border-radius: .5rem
+
+}
+
+.green{
+    background-color: var(--Green-3);
+}
+.yellow{
+    background-color: var(--Yellow-3);
+}
+.red{
+    background-color: var(--Red-3);
+}
+.blue{
+    background-color: var(--Blue-3);
+}
+
+.top-right{
+    top:0;
+    right:0;
+}
+
+.top-left{
+    top:0;
+    left:0;
+}
+.bottom-right{
+    bottom:0;
+    right:0;
+}
+
+.bottom-left{
+    bottom:0;
+    left:0;
+}
