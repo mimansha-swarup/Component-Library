@@ -1,0 +1,30 @@
+@import url('./main.css');
+.avatar-sm{
+    height: 2.5rem;
+    width: 2.5rem;
+}
+.avatar{
+    height: 3.5rem;
+    width: 3.5rem;
+}
+.avatar-md{
+    height: 4.5rem;
+    width: 4.5rem;
+}
+.avatar-lg{
+    height: 5.5rem;
+    width: 5.5rem;
+}
+
+.avatar, .avatar-sm, .avatar-md, .avatar-lg{
+    object-fit: cover;
+    border-radius: .75rem;
+    position: relative;
+}    
+.avatar-bg{
+    background-color: var(--Elevation--01);
+
+}
+.avatar-round{
+    border-radius: 100%;
+}

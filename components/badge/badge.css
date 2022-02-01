@@ -1,0 +1,86 @@
+@import url("../main.css");
+
+.badge-wrapper{
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+}
+
+.badge{
+    position: absolute;
+    padding : 0.2rem;
+    min-height: .1rem;
+    min-width: .1rem;
+    aspect-ratio: 1 / 1;
+    background-color: var(--Dark-0);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:var(--Dark-0);
+    font-weight: 600;
+    font-size:.8rem
+}
+.text-badge{
+    aspect-ratio: none;
+    padding: .0675rem .3rem;
+    border-radius: .5rem
+
+}
+
+.badge.green{
+    background-color: var(--Green-3);
+}
+.badge.yellow{
+    background-color: var(--Yellow-3);
+}
+.badge.red{
+    background-color: var(--Red-3);
+}
+.badge.blue{
+    background-color: var(--Blue-3);
+}
+
+.top-right{
+    top:0;
+    right:0;
+    transform: translate(50%,-50%);
+}
+
+.top-left{
+    top:0;
+    left:0;
+    transform: translate(-50%,-50%);
+}
+.bottom-right{
+    bottom:10%;
+    right:10%;
+    transform: translate(50%,50%);
+}
+
+.bottom-left{
+    bottom:10%;
+    left:10%;
+    transform: translate(-50%,50%);
+}
+
+.avatar-round + .top-left{
+    top:12%;
+    left:12%;
+    transform: translate(-50%,-50%);
+}
+.avatar-round + .top-right{
+    top:12%;
+    right:12%;
+    transform: translate(50%,-50%);
+}
+.avatar-round + .bottom-left{
+    bottom:15%;
+    left:15%;
+    transform: translate(-50%,50%);
+}
+.avatar-round + .bottom-right{
+    bottom:15%;
+    right:15%;
+    transform: translate(50%,50%);
+}
