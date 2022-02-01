@@ -2,32 +2,25 @@
 .avatar-sm{
     height: 2.5rem;
     width: 2.5rem;
-    object-fit: cover;
-    background-color: var(--Elevation-2);
-    border-radius: .75rem;
-    position: relative;
 }
 .avatar{
     height: 3.5rem;
     width: 3.5rem;
-    object-fit: cover;
-    border-radius: .75rem;
-    position: relative;
 }
 .avatar-md{
     height: 4.5rem;
     width: 4.5rem;
-    object-fit: cover;
-    border-radius: .75rem;
-    position: relative;
 }
 .avatar-lg{
     height: 5.5rem;
     width: 5.5rem;
+}
+
+.avatar, .avatar-sm, .avatar-md, .avatar-lg{
     object-fit: cover;
     border-radius: .75rem;
     position: relative;
-}
+}    
 .avatar-bg{
     background-color: var(--Elevation--01);
 
