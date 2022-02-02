@@ -3,9 +3,9 @@
 
 
 body{
-    background-color: var(--Elevation-0);
-    background-color: var(--Dark-0);
-    color: var(--Light-0);
+    background-color: var(--Elevation-00);
+    background-color: var(--color-black-04);
+    color: var(--color-white-00);
     line-height: 1.4rem;
 }
 
@@ -19,9 +19,9 @@ body{
     align-items: center;
     gap: 1rem;
     padding: 1.25rem 3rem;
-    color: var(--Light-3);
+    color: var(--color-white-03);
     box-shadow: var(--Shadow-03);
-    background-color: var(--Elevation-3);
+    background-color: var(--Elevation-03);
     border-radius: 0rem 0rem .8rem .8rem;
     margin-bottom: 1rem;
 }
@@ -30,7 +30,7 @@ body{
     margin-right: auto;
     margin-top: 0;
     margin-bottom: 0;
-    color: var(--Green-3);
+    color: var(--color-green-00);
     font-family: 'Nosifer', cursive;
     font-size: 1.75rem;
     align-self: center;
@@ -39,7 +39,7 @@ body{
     margin-left: auto;
 }
 .small-text{
-    color: var(--Green-0);    
+    color: var(--color-green-03);    
 }
 
 .hero-landing{

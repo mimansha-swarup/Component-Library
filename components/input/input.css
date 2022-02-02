@@ -1,52 +1,64 @@
-.form-grp{
-    gap: 1rem
+*{
+    --input-border: .1rem solid var(--color-teal-02);
 }
-.inpt-grp{
+.form-group{
+    display:flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.input-group{
     position: relative;
+    display:flex;
+    flex-direction: column;
     gap: .25rem;
-    color: var(--Light-2);
+    color: var(--color-white-02);
 }
 
-.inpt-grp input{
-    border: .1rem solid var(--Teal-2);
+.input-group input{
+    border: var(--input-border);
     border-radius: .25rem;
     font-size: 1rem;
     padding: .25rem .75rem;
     background-color: var(--Elevation--01);
-    box-shadow: var(--Shadow--01);
     outline: none;
     color: inherit;
 }
 
-.inpt-grp input:focus{
-    border: .1rem solid var(--Teal-0);
+.input-group input:focus{
+    border: var(--input-border);
+    border-color: var(--color-teal-03);
     outline: none;
+    box-shadow: var(--Shadow--01);
 }
-.inpt-grp input::placeholder{
-    color:var(--Teal-4);
+.input-group input::placeholder{
+    color:var(--color-teal-04);
     
 }
-.success-inpt{
-    color: var(--Green-3);    
+.success-input{
+    color: var(--color-green-00);    
 }
-.success-inpt input{
-    border: .1rem solid var(--Green-2);    
+.success-input input{
+    border: var(--input-border);
+    border-color: var(--color-green-01);    
 }
-.success-inpt input::placeholder{
-    color: var(--Green-4);    
+.success-input input::placeholder{
+    color: var(--color-green-04);    
 }
-.success-inpt input:focus{
-    border: .1rem solid var(--Green-0);    
+.success-input input:focus{
+    border: var(--input-border);
+    border-color: var(--color-green-03);    
 }
-.error-inpt{
-    color: var(--Red-3);    
+.error-input{
+    color: var(--color-red-00);    
 }
-.error-inpt input{
-    border: .1rem solid var(--Red-2);    
+.error-input input{
+    border: var(--input-border);
+    border-color: var(--color-red-01);    
 }
-.error-inpt input::placeholder{
-    color: var(--Red-4);    
+.error-input input::placeholder{
+    color: var(--color-red-04);    
 }
-.error-inpt input:focus{
-    border: .1rem solid var(--Red-0);    
+.error-input input:focus{
+    border: var(--input-border);
+    border-color: var(--color-red-03);    
 }
