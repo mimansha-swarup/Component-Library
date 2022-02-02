@@ -31,6 +31,23 @@
     flex-direction: column;
 }
 
+.sidebar a{
+    padding: .5rem 1.6rem;
+    border-radius: .25rem;
+    text-align: left;
+}
+.sidebar a li{
+    width: 100%;
+    margin:  0;
+    padding:  0;
+    color: inherit;
+}
+.sidebar a:hover{
+    background-color: var(--Elevation-1);
+    box-shadow: var(--Shadow-02);
+    border-left: .2rem solid var(--Teal-3);
+}
+/* 
 .sidebar li{
     padding: .5rem 1.6rem;
     border-radius: .25rem;
@@ -45,7 +62,7 @@
 .sidebar li:hover{
     background-color: var(--Elevation-4);
     box-shadow: var(--Shadow-02);
-}
+} */
 
 .line-horz{
     height: .15rem;
@@ -88,8 +105,9 @@
     flex-direction: column;
 }
 
-.sidebar .link-active{
-    color :var(--Teal-2);
+.sidebar a.link-active{
+    color :var(--Teal-1);
     background-color: var(--Elevation-4);
     box-shadow: var(--Shadow-02);
+    border-left: .2rem solid var(--Teal-1);
 }
