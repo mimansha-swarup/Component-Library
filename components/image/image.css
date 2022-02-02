@@ -1,0 +1,17 @@
+.img-responsive{
+    width:100%;
+    height: auto;
+    object-fit: cover;
+}
+.img-rnd{
+    border-radius: 50%;
+}
+.img-abs-rnd{
+    aspect-ratio: 1 /1;;
+    object-fit: cover;
+
+}
+/* Not-imp */
+.img-cont{
+    width:20rem;
+}

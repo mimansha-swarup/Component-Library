@@ -1,0 +1,52 @@
+.form-grp{
+    gap: 1rem
+}
+.inpt-grp{
+    position: relative;
+    gap: .25rem;
+    color: var(--Light-2);
+}
+
+.inpt-grp input{
+    border: .1rem solid var(--Teal-2);
+    border-radius: .25rem;
+    font-size: 1rem;
+    padding: .25rem .75rem;
+    background-color: var(--Elevation--01);
+    box-shadow: var(--Shadow--01);
+    outline: none;
+    color: inherit;
+}
+
+.inpt-grp input:focus{
+    border: .1rem solid var(--Teal-0);
+    outline: none;
+}
+.inpt-grp input::placeholder{
+    color:var(--Teal-4);
+    
+}
+.success-inpt{
+    color: var(--Green-3);    
+}
+.success-inpt input{
+    border: .1rem solid var(--Green-2);    
+}
+.success-inpt input::placeholder{
+    color: var(--Green-4);    
+}
+.success-inpt input:focus{
+    border: .1rem solid var(--Green-0);    
+}
+.error-inpt{
+    color: var(--Red-3);    
+}
+.error-inpt input{
+    border: .1rem solid var(--Red-2);    
+}
+.error-inpt input::placeholder{
+    color: var(--Red-4);    
+}
+.error-inpt input:focus{
+    border: .1rem solid var(--Red-0);    
+}
