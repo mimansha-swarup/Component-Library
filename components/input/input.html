@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinister-UI | Input</title>
+    <link rel="icon" type="image/x-icon" href="../../assets/Sinister-UI.svg">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../../components/main.css">
+    <link rel="stylesheet" href="../../docs.css">
+    <link rel="stylesheet" href="../../landing.css">
+</head>
+<body>
+    <header class="navbar" >
+        <p class="navbar-brand">
+            <a href="../../index.html"  >Sinister UI</a>
+            <small class="subtitle2 small-text" >V1.0</small>
+        </p>        
+        <nav>
+            <a href="../../docs.html" class="btn btn-text teal" >Docs</a>        
+        </nav> 
+
+    </header>
+    <main class="docs-container">
+        <aside class="sidebar">
+            <ul>
+                <span class="headline4">Get Started</span>
+                <a href="#" class="btn btn-text btn-link teal text-on-button" >
+                    <li>
+                        Installation
+                    </li>
+                </a>
+                <a href="#" class="btn btn-text btn-link teal text-on-button" >
+                    <li>
+                        Color
+                    </li>
+                </a>
+                <a href="#" class="btn btn-text btn-link teal text-on-button" >
+                    <li>
+                        Typography
+                    </li>
+                </a>
+            </ul>
+            <hr class="line-horz">
+            <ul>
+                <span class="headline4">Components</span>
+                <a href="../alert/alert.html" class="btn btn-text btn-link teal text-on-button " >
+                    <li>
+                        Alert
+                    </li>
+                </a>
+                <a href="../avatar/avatar.html" class="btn btn-text btn-link teal text-on-button" >
+                    <li>
+                        Avatar
+                    </li>
+                </a>
+                <a href="../badge/badge.html" class="btn btn-text btn-link teal text-on-button" >
+                    <li>
+                        Badge
+                    </li>
+                </a>
+                <a href="../button/button.html" class="btn btn-text btn-link teal text-on-button " >
+                    <li>
+                        Button
+                    </li>
+                </a>
+                <a href="../card/card.html" class="btn btn-text btn-link teal text-on-button " >
+                    <li>
+                        Card
+                    </li>
+                </a>
+                <a href="../image/image.html" class="btn btn-text btn-link teal text-on-button" >
+                    <li>
+                        Image
+                    </li>
+                </a>
+                <a href="../input/input.html" class="btn btn-text btn-link teal text-on-button link-active" >
+                    <li>
+                        Input
+                    </li>
+                </a>
+            </ul>
+        </aside>
+        
+        <div class="docs-body">
+            <h1 class="headline1 text-center">Input</h1>
+            <p class="body1">Input fields allow users to enter text into a UI. They typically appear in forms and dialogs.</p>
+            <br>
+            <section>
+
+                <h2 class="headline2">Input with labels</h2>
+                <p class="body1"> 
+                   to access Sinister UI style wrap label and input with 
+                    <span class="highlight-txt"> input-group </span> class.
+                </p>
+                <div class="showcase">
+                    <form class="form-group">
+                        <div class="input-group">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" placeholder="Name">
+                        </div>
+                        <div class="input-group">
+                            <label for="name">Email</label>
+                            <input type="text" name="name" placeholder="email">
+                        </div>
+                    </form>
+                </div>
+                <div class="code-snippet">
+                    <code>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%285%2C166%2C96%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=747.5&ds=true&dsyoff=15px&dsblur=32px&wc=true&wa=true&pv=44px&ph=30px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=168%25&si=false&es=2x&wm=false&code=%253Cform%2520class%253D%2522form-group%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-group%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522name%2522%253EName%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522name%2522%2520placeholder%253D%2522Name%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-group%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522name%2522%253EEmail%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522name%2522%2520placeholder%253D%2522email%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fform%253E"
+                        style="width: 100%; height: 372px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                      </iframe>
+                    </code>
+                </div>
+            
+            </section>     
+            <hr class="line-horz">               
+            <section>
+
+                <h2 class="headline2">Success Input Field</h2>
+                <p class="body1"> 
+                   For Success use 
+                    <span class="highlight-txt"> success-input</span>
+                    with
+                    <span class="highlight-txt"> input-group</span>.
+                </p>
+                <div class="showcase">
+                    <form class="form-group">
+                        <div class="input-group success-input">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" placeholder="Name">
+                        </div>
+                        <div class="input-group success-input">
+                            <label for="name">Email</label>
+                            <input type="text" name="name" placeholder="email">
+                        </div>
+                    </form>
+                </div>
+                <div class="code-snippet">
+                    <code>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%285%2C166%2C96%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=747.5&ds=true&dsyoff=15px&dsblur=32px&wc=true&wa=true&pv=44px&ph=30px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=168%25&si=false&es=2x&wm=false&code=%253Cform%2520class%253D%2522form-group%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-group%2520success-input%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522name%2522%253EName%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522name%2522%2520placeholder%253D%2522Name%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-group%2520success-input%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522name%2522%253EEmail%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522name%2522%2520placeholder%253D%2522email%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fform%253E"
+                        style="width: 100%; height: 372px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                      </iframe>
+
+                    </code>
+                </div>
+            
+            </section>                    
+            <hr class="line-horz">               
+            <section>
+
+                <h2 class="headline2">Error Input Field</h2>
+                <p class="body1"> 
+                   For Error use 
+                    <span class="highlight-txt"> error-input</span>
+                    with
+                    <span class="highlight-txt"> input-group</span>.
+                </p>
+                <div class="showcase">
+                    <form class="form-group">
+                        <div class="input-group error-input">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" placeholder="Name">
+                        </div>
+                        <div class="input-group error-input">
+                            <label for="name">Email</label>
+                            <input type="text" name="name" placeholder="email">
+                        </div>
+                    </form>
+                </div>
+                <div class="code-snippet">
+                    <code>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%285%2C166%2C96%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=747.5&ds=true&dsyoff=15px&dsblur=32px&wc=true&wa=true&pv=44px&ph=30px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=168%25&si=false&es=2x&wm=false&code=%253Cform%2520class%253D%2522form-group%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-group%2520error-input%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522name%2522%253EName%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522name%2522%2520placeholder%253D%2522Name%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-group%2520error-input%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522name%2522%253EEmail%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522name%2522%2520placeholder%253D%2522email%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fform%253E"
+                        style="width: 100%; height: 372px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                      </iframe>
+
+                    </code>
+                </div>
+            
+            </section>                    
+
+        </div>
+
+    </main>
+    
+</body>
+</html>

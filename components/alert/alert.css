@@ -6,32 +6,32 @@
     padding: .875rem 2rem .875rem 1rem;
     background-color: var(--Elevation--01);
     box-sizing: border-box;
-    border-left: 2px solid var(--Dark-3);
+    border-left: 2px solid var(--color-black-01);
     border-radius: .25rem;
     display: flex;
     align-items: center;
     max-width: 600px;
 }
 .alert .alert-text{
-    color: var(--Light-4);
+    color: var(--color-white-04);
 }
 .alert-success{
-    border-left: .2rem solid var(--Green-3);
-    background-color: var(--Green-4);
-    color: var(--Green-3)
+    border-left: .2rem solid var(--color-green-00);
+    background-color: var(--color-green-04);
+    color: var(--color-green-00)
 }
 .alert-error{
-    border-left: .2rem solid var(--Red-3);
-    background-color: var(--Red-4);
-    color: var(--Red-3)
+    border-left: .2rem solid var(--color-red-00);
+    background-color: var(--color-red-04);
+    color: var(--color-red-00)
 }
 .alert-warning{
-    border-left: .2rem solid var(--Yellow-3);
-    background-color: var(--Yellow-4);
-    color: var(--Yellow-3)
+    border-left: .2rem solid var(--color-yellow-00);
+    background-color: var(--color-yellow-04);
+    color: var(--color-yellow-00)
 }
 .alert-info{
-    border-left: .2rem solid var(--Blue-3);
-    background-color: var(--Blue-4);
-    color: var(--Blue-3)
+    border-left: .2rem solid var(--color-blue-00);
+    background-color: var(--color-blue-04);
+    color: var(--color-blue-00)
 }

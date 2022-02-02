@@ -14,70 +14,70 @@
     box-shadow: var(--Shadow-02);
     font-family: var(--font-body);
     /* transition: all .4s ease-in-out; */
-    background-color: var(--Elevation-2);
-    color: var(--Light-1);
+    background-color: var(--Elevation-02);
+    color: var(--color-white-01);
     letter-spacing:.125rem;
 }
 
 /*** Contained Buttons ***/
 
 .btn.btn-contained {
-    background-color: var(--Green-1);
-    border: 2px solid var(--Green-1) ;
-    color: var(--Light-1);
+    background-color: var(--color-green-02);
+    border: 2px solid var(--color-green-02) ;
+    color: var(--color-white-01);
     opacity: 0.95;
 }
 .btn.btn-contained:hover {
-    background-color: var(--Green-2);
-    border: 2px solid var(--Green-2) ;
-    color: var(--Light-2);
+    background-color: var(--color-green-01);
+    border: 2px solid var(--color-green-01) ;
+    color: var(--color-white-02);
     transition: all .3s ease-in-out;
 }
 
 .btn.btn-contained.red{
-    background-color: var(--Red-1);
-    border: 2px solid var(--Red-1) ;
+    background-color: var(--color-red-02);
+    border: 2px solid var(--color-red-02) ;
 }
 .btn.btn-contained.red:hover {
-    background-color: var(--Red-2);
-    border: 2px solid var(--Red-2);
+    background-color: var(--color-red-01);
+    border: 2px solid var(--color-red-01);
 }
 
 .btn.btn-contained.yellow {
-    background-color: var(--Yellow-1);
-    border: 2px solid var(--Yellow-1) ;
-    color: var(--Dark-2);
+    background-color: var(--color-yellow-02);
+    border: 2px solid var(--color-yellow-02) ;
+    color: var(--color-black-02);
 }
 .btn.btn-contained.yellow:hover {
-    background-color: var(--Yellow-2);
-    border: 2px solid var(--Yellow-2) ;
+    background-color: var(--color-yellow-01);
+    border: 2px solid var(--color-yellow-01) ;
 }
 
 .btn.btn-contained.orange {
-    background-color: var(--Orange-1);
-    border: 2px solid var(--Orange-1) ;
+    background-color: var(--color-orange-02);
+    border: 2px solid var(--color-orange-02) ;
 }
 .btn.btn-contained.orange:hover {
-    background-color: var(--Orange-2);
-    border: 2px solid var(--Orange-2) ;
+    background-color: var(--color-orange-01);
+    border: 2px solid var(--color-orange-01) ;
 }
 
 .btn.btn-contained.teal {
-    background-color: var(--Teal-1);
-    border: 2px solid var(--Teal-1) ;
+    background-color: var(--color-teal-02);
+    border: 2px solid var(--color-teal-02) ;
 }
 .btn.btn-contained.teal:hover {
-    background-color: var(--Teal-2);
-    border: 2px solid var(--Teal-2) ;
+    background-color: var(--color-teal-01);
+    border: 2px solid var(--color-teal-01) ;
 }
 
 .btn.btn-contained.purple {
-    background-color: var(--Purple-1);
-    border: 2px solid var(--Purple-1) ;
+    background-color: var(--color-purple-02);
+    border: 2px solid var(--color-purple-02) ;
 }
 .btn.btn-contained.purple:hover {
-    background-color: var(--Purple-2);
-    border: 2px solid var(--Purple-2) ;
+    background-color: var(--color-purple-02);
+    border: 2px solid var(--color-purple-02) ;
 }
 
 /***  ***/
@@ -85,60 +85,60 @@
 /*** Outline Buttons ***/
 
 .btn.btn-outline {
-    color: var(--Green-1);
-    border: 2px solid var(--Green-1) ;
+    color: var(--color-green-02);
+    border: 2px solid var(--color-green-02) ;
     background-color: inherit;
     opacity: 0.95;
 }
 .btn.btn-outline:hover {
     transition: all .3s ease-in-out;
-    color: var(--Green-3);
-    border: 2px solid var(--Green-3) ;
+    color: var(--color-green-00);
+    border: 2px solid var(--color-green-00) ;
 }
 
 .btn.btn-outline.red{
-    color: var(--Red-1);
-    border: 2px solid var(--Red-1) ;
+    color: var(--color-red-02);
+    border: 2px solid var(--color-red-02) ;
 }
 .btn.btn-outline.red:hover {
-    color: var(--Red-3);
-    border: 2px solid var(--Red-3);
+    color: var(--color-red-00);
+    border: 2px solid var(--color-red-00);
 }
 
 .btn.btn-outline.yellow {
-    color: var(--Yellow-1);
-    border: 2px solid var(--Yellow-1) ;
+    color: var(--color-yellow-02);
+    border: 2px solid var(--color-yellow-02) ;
 }
 .btn.btn-outline.yellow:hover {
-    color: var(--Yellow-3);
-    border: 2px solid var(--Yellow-3) ;
+    color: var(--color-yellow-00);
+    border: 2px solid var(--color-yellow-00) ;
 }
 
 .btn.btn-outline.orange {
-    color: var(--Orange-1);
-    border: 2px solid var(--Orange-1) ;
+    color: var(--color-orange-02);
+    border: 2px solid var(--color-orange-02) ;
 }
 .btn.btn-outline.orange:hover {
-    color: var(--Orange-3);
-    border: 2px solid var(--Orange-3) ;
+    color: var(--color-orange-00);
+    border: 2px solid var(--color-orange-00) ;
 }
 
 .btn.btn-outline.teal {
-    color: var(--Teal-1);
-    border: 2px solid var(--Teal-1) ;
+    color: var(--color-teal-02);
+    border: 2px solid var(--color-teal-02) ;
 }
 .btn.btn-outline.teal:hover {
-    color: var(--Teal-3);
-    border: 2px solid var(--Teal-3) ;
+    color: var(--color-teal-00);
+    border: 2px solid var(--color-teal-00) ;
 }
 
 .btn.btn-outline.purple {
-    color: var(--Purple-2);
-    border: 2px solid var(--Purple-2) ;
+    color: var(--color-purple-01);
+    border: 2px solid var(--color-purple-01) ;
 }
 .btn.btn-outline.purple:hover {
-    color: var(--Purple-3);
-    border: 2px solid var(--Purple-3) ;
+    color: var(--color-purple-00);
+    border: 2px solid var(--color-purple-00) ;
 }
 
 /***  ***/
@@ -146,7 +146,7 @@
 /*** Text Buttons ***/
 
 .btn-text {    
-    color: var(--Green-3);
+    color: var(--color-green-00);
     background-color: inherit;
     border: 2px solid transparent;
     opacity: 0.95;
@@ -155,43 +155,43 @@
     padding: 0.25em .5em;
 }
 .btn.btn-text:hover {
-    color: var(--Green-1);
+    color: var(--color-green-02);
     transition: all .3s ease-in-out;
 }
 
 .btn.btn-text.red{
-    color: var(--Red-3);
+    color: var(--color-red-01);
 }
 .btn.btn-text.red:hover {
-    color: var(--Red-1);
+    color: var(--color-red-02);
 }
 
 .btn.btn-text.yellow {
-    color: var(--Yellow-3);
+    color: var(--color-yellow-00);
 }
 .btn.btn-text.yellow:hover {
-    color: var(--Yellow-1);
+    color: var(--color-yellow-02);
 }
 
 .btn.btn-text.orange {
-    color: var(--Orange-3);
+    color: var(--color-orange-00);
 }
 .btn.btn-text.orange:hover {
-    color: var(--Orange-1);
+    color: var(--color-orange-02);
 }
 
 .btn.btn-text.teal {
-    color: var(--Teal-3);
+    color: var(--color-teal-00);
 }
 .btn.btn-text.teal:hover {
-    color: var(--Teal-1);
+    color: var(--color-teal-02);
 }
 
 .btn.btn-text.purple {
-    color: var(--Purple-3);
+    color: var(--color-purple-00);
 }
 .btn.btn-text.purple:hover {
-    color: var(--Purple-1);
+    color: var(--color-purple-02);
 }
 
 /***  ***/

@@ -12,12 +12,12 @@
     min-height: .1rem;
     min-width: .1rem;
     aspect-ratio: 1 / 1;
-    background-color: var(--Dark-0);
+    background-color: var(--color-black-04);
     border-radius: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    color:var(--Dark-0);
+    color:var(--color-black-04);
     font-weight: 600;
     font-size:.8rem
 }
@@ -29,16 +29,16 @@
 }
 
 .badge.green{
-    background-color: var(--Green-3);
+    background-color: var(--color-green-00);
 }
 .badge.yellow{
-    background-color: var(--Yellow-3);
+    background-color: var(--color-yellow-00);
 }
 .badge.red{
-    background-color: var(--Red-3);
+    background-color: var(--color-red-00);
 }
 .badge.blue{
-    background-color: var(--Blue-3);
+    background-color: var(--color-blue-00);
 }
 
 .top-right{
