@@ -4,7 +4,7 @@
 
 .btn {
     border: none;
-    font-size: 1rem;
+    /* font-size: 1rem; */
     text-align: center;
     padding: 0.375em 1.5em;
     border-radius: 0.375em;
@@ -152,6 +152,7 @@
     opacity: 0.95;
     box-shadow: none;
     text-shadow: var(--Shadow-02);
+    padding: 0.25em .5em;
 }
 .btn.btn-text:hover {
     color: var(--Green-1);

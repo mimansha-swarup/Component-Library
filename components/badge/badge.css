@@ -22,10 +22,10 @@
     font-size:.8rem
 }
 .text-badge{
-    aspect-ratio: none;
+    aspect-ratio: 16 / 9;
     padding: .0675rem .3rem;
-    border-radius: .5rem
-
+    border-radius: .25rem;
+    
 }
 
 .badge.green{
