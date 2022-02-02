@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinister-UI | Card</title>
+    <link rel="icon" type="image/x-icon" href="../../assets/Sinister-UI.svg">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../../components/main.css">
+    <!-- <link rel="stylesheet" href="../../components/typography/typography.css"> -->
+    <link rel="stylesheet" href="../../docs.css">
+    <link rel="stylesheet" href="../../landing.css">
+</head>
+<body>
+    <header class="navbar" >
+        <p class="navbar-brand">
+            <a href="../../index.html"  >Sinister UI</a>
+            <small class="subtitle2 small-text" >V1.0</small>
+        </p>        
+        <nav>
+            <a href="../../docs.html" class="btn btn-text teal" >Docs</a>        
+        </nav> 
+
+    </header>
+    <main class="docs-container">
+        <aside class="sidebar">
+            <ul>
+                <span class="headline4">Get Started</span>
+                <a href="#" class="btn btn-text btn-link teal button-txt" >
+                    <li>
+                        Installation
+                    </li>
+                </a>
+                <a href="#" class="btn btn-text btn-link teal button-txt" >
+                    <li>
+                        Color
+                    </li>
+                </a>
+                <a href="#" class="btn btn-text btn-link teal button-txt" >
+                    <li>
+                        Typography
+                    </li>
+                </a>
+            </ul>
+            <hr class="line-horz">
+            <ul>
+                <span class="headline4">Components</span>
+                <a href="../alert/alert.html" class="btn btn-text btn-link teal button-txt" >
+                    <li>
+                        Alert
+                    </li>
+                </a>
+                <a href="../avatar/avatar.html" class="btn btn-text btn-link teal button-txt" >
+                    <li>
+                        Avatar
+                    </li>
+                </a>
+                <a href="../badge/badge.html" class="btn btn-text btn-link teal button-txt " >
+                    <li>
+                        Badge
+                    </li>
+                </a>
+                <a href="../button/button.html" class="btn btn-text btn-link teal button-txt " >
+                    <li>
+                        Button
+                    </li>
+                </a>
+                <a href="./card.html" class="btn btn-text btn-link teal button-txt link-active" >
+                    <li>
+                        Card
+                    </li>
+                </a>
+            </ul>
+        </aside>
+        
+        <div class="docs-body">
+            <h1 class="headline1 text-center">Card</h1>
+            <p class="body1">Cards contain content and actions about a single subject.
+                Cards are surfaces that display content and actions on a single topic.
+            </p>
+            <br>
+            
+            <hr class="line-horz">                 
+            <section>
+
+                <h2 class="headline2">Card</h2>
+                <p class="body1"> 
+                    <!-- Badges are available in different color variant   
+                    <span class="highlight-txt"> green </span>, 
+                    <span class="highlight-txt"> blue </span>. <br> -->
+                    will update soon
+                </p>
+                <div class="showcase">
+                    <div class="card">
+                        <div class="media-cont">
+                            <img class="card-media" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/phpli17pnhsl1izlqym3.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-header">
+                                <p class="card-title subtitle1 bold">Nike Shoes</p>
+                                <p class="card-subtitle subtitle1">by Nike Intl</p>
+                            </div>
+                        </div>
+                        <p class="card-text body2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quas numquam voluptatibus harum porro saepe laboriosam minima voluptatum officia. Itaque voluptas iure labore quia commodi porro vero est ea in?</p>
+                        <div class="card-action">
+                            <button class="btn btn-text">Buy</button>
+                            <button class="btn btn-text">Add t0 cart</button>
+                            <div class="card-action-icon">
+                                <span class="material-icons">favorite_outline</span>
+                                <span class="material-icons">star_rate</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="code-snippet">
+                    <code>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%285%2C166%2C96%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=747.5&ds=true&dsyoff=15px&dsblur=32px&wc=true&wa=true&pv=44px&ph=30px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=168%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522media-cont%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-media%2522%2520src%253D%2522...%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-title%2520subtitle1%2520bold%2522%253ENike%2520Shoes%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subtitle%2520subtitle1%2522%253Eby%2520Nike%2520Intl%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-text%2520body2%2522%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-action%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-text%2522%253EBuy%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-text%2522%253EAdd%2520t0%2520cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-action-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Efavorite_outline%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Estar_rate%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 100%; height: 399px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+
+                    </code>
+                </div>
+            
+            </section>   
+            <hr class="line-horz">                               
+            <section>
+
+                <h2 class="headline2">Card with Badges</h2>
+                <p class="body1"> 
+                    will update Later
+                </p>
+                <div class="showcase">
+                    <div class="card">
+                        <div class="media-cont">
+                            <img class="card-media" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/phpli17pnhsl1izlqym3.jpg" alt="">
+                            <div class="badge text-badge red top-left">assured</div>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-header">
+                                <p class="card-title subtitle1 bold">Nike Shoes</p>
+                                <p class="card-subtitle subtitle1">by Nike Intl</p>
+                            </div>
+                        </div>
+                        <p class="card-text body2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quas numquam voluptatibus harum porro saepe laboriosam minima voluptatum officia. Itaque voluptas iure labore quia commodi porro vero est ea in?</p>
+                        <div class="card-action">
+                            <button class="btn btn-text">Buy</button>
+                            <button class="btn btn-text">Add t0 cart</button>
+                            <div class="card-action-icon">
+                                <span class="material-icons">favorite_outline</span>
+                                <span class="material-icons">star_rate</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="code-snippet">
+                    <code>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%285%2C166%2C96%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=747.5&ds=true&dsyoff=15px&dsblur=32px&wc=true&wa=true&pv=44px&ph=30px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=168%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522media-cont%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-media%2522%2520src%253D%2522...%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2520text-badge%2520red%2520top-left%2522%253Eassured%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-title%2520subtitle1%2520bold%2522%253ENike%2520Shoes%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subtitle%2520subtitle1%2522%253Eby%2520Nike%2520Intl%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-text%2520body2%2522%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-action%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-text%2522%253EBuy%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-text%2522%253EAdd%2520t0%2520cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-action-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Efavorite_outline%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Estar_rate%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                        style="width: 100%; height: 444px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                      </iframe>                       
+
+                    </code>
+                </div>
+            
+            </section>   
+            <hr class="line-horz">                               
+            <section>
+
+                <h2 class="headline2">Card with dismiss</h2>
+                <p class="body1"> 
+                    will be updated
+                    <!-- <span class="highlight-txt"> text-badge </span>. <br> -->
+                </p>
+                <div class="showcase">
+                    <div class="card ">
+                        <div class="media-cont">
+                            <img class="card-media" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/phpli17pnhsl1izlqym3.jpg" alt="">
+                            <button class="btn btn-icon card-dismiss">
+                                <span class="material-icons">highlight_off</span>
+                            </button>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-header">
+                                <p class="card-title subtitle1 bold">Nike Shoes</p>
+                                <p class="card-subtitle subtitle1">by Nike Intl</p>
+                            </div>
+                        </div>
+                        <p class="card-text body2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quas numquam voluptatibus harum porro saepe laboriosam minima voluptatum officia. Itaque voluptas iure labore quia commodi porro vero est ea in?</p>
+                        <div class="card-action">
+                            <button class="btn btn-text">Buy</button>
+                            <button class="btn btn-text">Add t0 cart</button>
+                            <div class="card-action-icon">
+                                <span class="material-icons">favorite_outline</span>
+                                <span class="material-icons">star_rate</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="code-snippet">
+                    <code>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%285%2C166%2C96%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=747.5&ds=true&dsyoff=15px&dsblur=32px&wc=true&wa=true&pv=44px&ph=30px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=168%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522media-cont%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-media%2522%2520src%253D%2522...%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-icon%2520card-dismiss%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Ehighlight_off%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-title%2520subtitle1%2520bold%2522%253ENike%2520Shoes%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subtitle%2520subtitle1%2522%253Eby%2520Nike%2520Intl%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-text%2520body2%2522%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-action%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-text%2522%253EBuy%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-text%2522%253EAdd%2520t0%2520cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-action-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Efavorite_outline%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Estar_rate%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 100%; height: 367px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                      </iframe>
+
+                    </code>
+                </div>
+            
+            </section>                                  
+            <hr class="line-horz">                               
+            <section>
+
+                <h2 class="headline2">Card with shadow</h2>
+                <p class="body1"> 
+                    will be updated
+                    <!-- <span class="highlight-txt"> text-badge </span>. <br> -->
+                </p>
+                <div class="showcase">
+                    <div class="card shadow">
+                        <div class="media-cont">
+                            <img class="card-media" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/phpli17pnhsl1izlqym3.jpg" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-header">
+                                <p class="card-title subtitle1 bold">Nike Shoes</p>
+                                <p class="card-subtitle subtitle1">by Nike Intl</p>
+                            </div>
+                        </div>
+                        <p class="card-text body2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quas numquam voluptatibus harum porro saepe laboriosam minima voluptatum officia. Itaque voluptas iure labore quia commodi porro vero est ea in?</p>
+                        <div class="card-action">
+                            <button class="btn btn-text">Buy</button>
+                            <button class="btn btn-text">Add t0 cart</button>
+                            <div class="card-action-icon">
+                                <span class="material-icons">favorite_outline</span>
+                                <span class="material-icons">star_rate</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="code-snippet">
+                    <code>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%285%2C166%2C96%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=747.5&ds=true&dsyoff=15px&dsblur=32px&wc=true&wa=true&pv=44px&ph=30px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=168%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520shadow%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522media-cont%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-media%2522%2520src%253D%2522...%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-title%2520subtitle1%2520bold%2522%253ENike%2520Shoes%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subtitle%2520subtitle1%2522%253Eby%2520Nike%2520Intl%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-text%2520body2%2522%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-action%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-text%2522%253EBuy%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-text%2522%253EAdd%2520t0%2520cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-action-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Efavorite_outline%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Estar_rate%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 100%; height: 299px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                      </iframe>
+
+                    </code>
+                </div>
+            
+            </section>                                  
+            <hr class="line-horz">                               
+            <section>
+
+                <h2 class="headline2">Horizontal Card </h2>
+                <p class="body1"> 
+                    will be updated
+                    <!-- <span class="highlight-txt"> text-badge </span>. <br> -->
+                </p>
+                <div class="showcase">
+                    <div class="card  card-horz">
+                        <div class="flex">
+                            <div class="media-cont">
+                                <img class="card-media" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/phpli17pnhsl1izlqym3.jpg" alt="">                        
+                            </div>
+                            <div class="card-body">
+                                <div class="card-header">
+                                    <p class="card-title subtitle1 bold">Nike Shoes</p>
+                                    <p class="card-subtitle subtitle1">by Nike Intl</p>
+                                </div>
+                                <p class="card-text body2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quas numquam voluptatibus harum porro saepe laboriosam minima voluptatum officia. Itaque voluptas iure labore quia commodi porro vero est ea in?</p>
+                            </div>
+                        </div>
+                        <div class="card-action">
+                            <button class="btn btn-text">Buy</button>
+                            <button class="btn btn-text">Add t0 cart</button>
+                            <div class="card-action-icon">
+                                <span class="material-icons">favorite_outline</span>
+                                <span class="material-icons">star_rate</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="code-snippet">
+                    <code>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%285%2C166%2C96%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=747.5&ds=true&dsyoff=15px&dsblur=32px&wc=true&wa=true&pv=44px&ph=30px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=168%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520%2520card-horz%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522media-cont%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-media%2522%2520src%253D%2522...%2522%2520alt%253D%2522%2522%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-title%2520subtitle1%2520bold%2522%253ENike%2520Shoes%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subtitle%2520subtitle1%2522%253Eby%2520Nike%2520Intl%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-text%2520body2%2522%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-action%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-text%2522%253EBuy%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-text%2522%253EAdd%2520t0%2520cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-action-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Efavorite_outline%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Estar_rate%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 100%; height: 361px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                      </iframe>
+
+                    </code>
+                </div>
+            
+            </section>                                                                   
+            <hr class="line-horz">                               
+            <section>
+
+                <h2 class="headline2">Card with Text OverLay</h2>
+                <p class="body1"> 
+                    will be updated
+                    <!-- <span class="highlight-txt"> text-badge </span>. <br> -->
+                </p>
+                <div class="showcase">
+                    <div class="card ">
+                        <div class="media-cont">
+                            <img class="card-media" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/phpli17pnhsl1izlqym3.jpg" alt="">
+                            <div class="overlay flex center"><span class="bold subtitle2" >Out Of Stock</span></div>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-header">
+                                <p class="card-title subtitle1 bold">Nike Shoes</p>
+                                <p class="card-subtitle subtitle1">by Nike Intl</p>
+                            </div>
+                        </div>
+                        <p class="card-text body2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quas numquam voluptatibus harum porro saepe laboriosam minima voluptatum officia. Itaque voluptas iure labore quia commodi porro vero est ea in?</p>
+                        <div class="card-action">
+                            <button class="btn btn-text">Buy</button>
+                            <button class="btn btn-text">Add t0 cart</button>
+                            <div class="card-action-icon">
+                                <span class="material-icons">favorite_outline</span>
+                                <span class="material-icons">star_rate</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="code-snippet">
+                    <code>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%285%2C166%2C96%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=747.5&ds=true&dsyoff=15px&dsblur=32px&wc=true&wa=true&pv=44px&ph=30px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=168%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522media-cont%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-media%2522%2520src%253D%2522...%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522overlay%2520flex%2520center%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522bold%2520subtitle2%2522%2520%253EOut%2520Of%2520Stock%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-title%2520subtitle1%2520bold%2522%253ENike%2520Shoes%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subtitle%2520subtitle1%2522%253Eby%2520Nike%2520Intl%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-text%2520body2%2522%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-action%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-text%2522%253EBuy%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-text%2522%253EAdd%2520t0%2520cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-action-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Efavorite_outline%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Estar_rate%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 100%; height: 384px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                      </iframe>
+                    </code>
+                </div>
+        
+            </section>                                  
+            <hr class="line-horz">                               
+            <section>
+
+                <h2 class="headline2">Card with Text Only</h2>
+                <p class="body1"> 
+                    will be updated
+                    <!-- <span class="highlight-txt"> text-badge </span>. <br> -->
+                </p>
+                <div class="showcase">
+                    <div class="card text-card">
+                        <div class="card-body">
+                            <div class="card-header">
+                                <p class="card-title subtitle1 bold">Nike Shoes</p>
+                                <p class="card-subtitle subtitle1">by Nike Intl</p>
+                            </div>
+                        </div>
+                        <p class="card-text body2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quas numquam voluptatibus harum porro saepe laboriosam minima voluptatum officia. Itaque voluptas iure labore quia commodi porro vero est ea in?</p>
+                        <div class="card-action">
+                            <button class="btn btn-text">Buy</button>
+                            <button class="btn btn-text">Add t0 cart</button>
+                            <div class="card-action-icon">
+                                <span class="material-icons">favorite_outline</span>
+                                <span class="material-icons">star_rate</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="code-snippet">
+                    <code>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%285%2C166%2C96%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=747.5&ds=true&dsyoff=15px&dsblur=32px&wc=true&wa=true&pv=44px&ph=30px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=168%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520text-card%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-title%2520subtitle1%2520bold%2522%253ENike%2520Shoes%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522card-subtitle%2520subtitle1%2522%253Eby%2520Nike%2520Intl%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522card-text%2520body2%2522%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-action%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-text%2522%253EBuy%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-text%2522%253EAdd%2520t0%2520cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-action-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Efavorite_outline%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2522%253Estar_rate%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 100%; height: 348px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                      </iframe>
+                    </code>
+                </div>
+        
+            </section>                                  
+
+        </div>
+
+    </main>
+    
+</body>
+</html>

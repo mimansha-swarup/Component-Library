@@ -92,3 +92,31 @@ body{
     margin: 0;
     font-family:var(--font-body);
 }
+
+.flex{
+
+    display: flex;
+}
+.center{
+    align-items: center;
+    justify-content: center;
+}
+.space-around{
+    align-items: center;
+    justify-content: space-around;
+}
+.space-evenly{
+    align-items: center;
+    justify-content: space-evenly;
+}
+.space-between{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+.flex-column{
+    flex-direction: column;
+}
