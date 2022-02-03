@@ -112,6 +112,8 @@
     --color-purple-02 : #6600CC ; 
     --color-purple-03 : #4D0099 ;  
     --color-purple-00 : #393D69 ;
+
+    --color-grey:#bdbdbd;
     
     --Elevation--01: #26273B;   /* Focuesd Input */
     --Elevation-00 : #28293D ;   /* Bg, Alert, btn diabled, Input disabled*/
@@ -169,6 +171,10 @@ body{
     justify-content: space-between;
 }
 
+.aligin-start{
+    align-items: flex-start;
+
+}
 .flex-row{
     flex-direction: row;
 }

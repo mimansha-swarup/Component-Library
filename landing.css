@@ -38,7 +38,7 @@ body{
 .navbar nav{
     margin-left: auto;
 }
-.small-text{
+.navbar .small-text{
     color: var(--color-green-03);    
 }
 
