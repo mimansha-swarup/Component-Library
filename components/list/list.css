@@ -1,0 +1,61 @@
+/*** List Spaced ***/
+
+.list{
+    background-color: var(--Elevation-00);
+    list-style: none;
+    padding-left: 0;
+    margin:0;
+    padding: .8rem 1rem ;
+    display: flex;
+    flex-direction: column;
+    gap:.25rem;
+    border-radius: .25rem;
+    width: 100%;
+    box-shadow: var(--Shadow-01);
+}
+.list-item{
+    box-shadow: var(--Shadow-01);
+    background-color: var(--Elevation-01);
+    display: flex;
+    align-items:center ;
+    gap:1rem;
+    padding: .5rem 1rem ;
+    border-radius: .25rem;
+    cursor: pointer;
+}
+
+.list-item:hover{
+    background-color: var(--Elevation-03);
+    
+}
+.list hr{
+    height: .1rem;
+    width: 100%;
+    background-color: var(--color-black-00);
+    border:none
+}
+.list-icon{
+    margin-right: auto;
+}
+.list-text{
+    flex-basis: 90%;
+}
+
+/***  ***/
+
+/*** List Stacked  ***/
+.list-stacked{
+    gap:0;
+    padding:0;
+}
+.list-stacked hr{
+    margin:0
+}
+.list-stacked .list-item{
+    background-color: var(--Elevation-02);
+    border-radius: 0;
+}
+.list-stacked .list-item:hover{
+    background-color: var(--Elevation-03);
+
+}
