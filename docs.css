@@ -94,3 +94,11 @@
     box-shadow: var(--Shadow-02);
     border-left: .2rem solid var(--color-teal-02);
 }
+.showcase.typo-showcase{
+    align-items: flex-start;
+}
+
+.list-showcase-container{
+    width: 300px;
+
+}
