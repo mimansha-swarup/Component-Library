@@ -16,7 +16,12 @@
     display:flex;
     align-items: center;
 }
-
+.toast span{
+    margin:0
+}
+.toast-action .material-icons{
+    font-size: 1.25rem;
+}
 /*------ */
 
 /* Toast position */
