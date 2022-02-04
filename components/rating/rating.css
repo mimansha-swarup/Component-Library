@@ -1,0 +1,8 @@
+/* rating style */
+.rating-container{
+    display: flex;
+    gap:.5rem
+}
+.rated{
+    color: var(--color-yellow-03);
+}
