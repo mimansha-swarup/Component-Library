@@ -15,6 +15,11 @@
     flex-grow: 1;
     margin: .1rem;
 }
+.pagination-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 /* Sidebar */
 .sidebar{
     padding: 1rem .5rem;
@@ -102,7 +107,15 @@
     width: 300px;
 
 }
+
+
+@media screen and (max-width : 800px){
+    .sidebar{
+        display: none;
+    }
+
 .toast-showcase{
     height:400px;
     position: relative;
+
 }
