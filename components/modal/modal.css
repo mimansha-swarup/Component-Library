@@ -1,0 +1,35 @@
+.modal{
+    background-color: var(--Elevation-06);
+    position: absolute;
+    z-index: var(--z-index-3);
+    z-index: 100;
+    box-shadow: var(--Shadow-06);
+    padding: 1.5rem;
+    max-width: 600px;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left: 50%; 
+    border-radius: .25rem;
+}
+.backdrop{
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    background-color: var(--backdrop-color);
+    display: none;
+    z-index: var(--z-index-2);
+}
+.modal .close-icon{
+    margin-left: auto;
+    margin-top: .5rem;
+    cursor: pointer;
+}
+.modal .modal-header, .modal .modal-footer{
+    display: flex;
+    gap:1rem
+}
+.modal .modal-footer{
+    margin-top: 1rem;
+}
