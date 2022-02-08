@@ -114,6 +114,8 @@
     --color-purple-00 : #393D69 ;
 
     --color-grey:#bdbdbd;
+
+    --backdrop-color:rgba(0,0,0,.5);
     
     --Elevation--01: #26273B;   /* Focuesd Input */
     --Elevation-00 : #28293D ;   /* Bg, Alert, btn diabled, Input disabled*/

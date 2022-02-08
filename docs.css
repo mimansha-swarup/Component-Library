@@ -108,14 +108,19 @@
 
 }
 
+.showcase .navbar{
+    width: 100%;
+}
 
-@media screen and (max-width : 800px){
-    .sidebar{
-        display: none;
-    }
 
 .toast-showcase{
     height:400px;
     position: relative;
 
+}
+
+@media screen and (max-width : 800px){
+    .sidebar{
+        display: none;
+    }
 }

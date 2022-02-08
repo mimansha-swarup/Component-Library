@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sinister-UI | Image</title>
+    <title>Sinister-UI | Modal</title>
     <link rel="icon" type="image/x-icon" href="../../assets/Sinister-UI.svg">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="../../components/main.css">
     <link rel="stylesheet" href="../../docs.css">
     <link rel="stylesheet" href="../../landing.css">
+    <script src="./modal.js" defer></script>
 </head>
 <body>
     <header class="navbar" >
@@ -70,7 +71,7 @@
                         Card
                     </li>
                 </a>
-                <a href="./image.html" class="btn btn-text btn-link teal text-on-button link-active" >
+                <a href="./image.html" class="btn btn-text btn-link teal text-on-button " >
                     <li>
                         Image
                     </li>
@@ -80,12 +81,12 @@
                         Input
                     </li>
                 </a>
-                <a href="../list/list.html" class="btn btn-text btn-link teal text-on-button" >
+                <a href="../list/list.html" class="btn btn-text btn-link teal text-on-button " >
                     <li>
                         List
                     </li>
                 </a>
-                <a href="../modal/modal.html" class="btn btn-text btn-link teal text-on-button " >
+                <a href="../modal/modal.html" class="btn btn-text btn-link teal text-on-button link-active" >
                     <li>
                         Modal
                     </li>
@@ -110,71 +111,58 @@
         
         <div class="docs-body">
             <div class="pagination-head">
-                <a href="../card/card.html" class="btn btn-text">
+                <a href="../list/list.html" class="btn btn-text">
                     <span class="material-icons">arrow_back_ios</span>
                 </a>
-                <h1 class="headline1 text-center">Image</h1>
-                <a class="btn btn-text" href="../input/input.html">
+                <h1 class="headline1 text-center">Modal</h1>
+                <a class="btn btn-text" href="../navigation/navigation.html">
                     <span class="material-icons">arrow_forward_ios</span>
                 </a>
             </div>
-            <p class="body1">to display image we provide responsive and round images</p>
+            <p class="body1">
+                The modal component provides a solid foundation for creating dialogs, popovers, lightboxes, or whatever else.
+            </p>
             <br>
             <section>
 
-                <h2 class="headline2">Responsive image</h2>
+                <h2 class="headline2">Modal</h2>
                 <p class="body1"> 
-                   to meake image responeive use 
-                    <span class="highlight-txt"> img-responsive </span>.
+                    To implement Modal use <span class="highlight-txt">backdrop</span> class and
+                    <span class="highlight-txt">modal</span>  class.
                 </p>
-                <div class="showcase">
-                    <div class="img-container">
-                        <img class="img-responsive" src="https://picsum.photos/400/400">
-                    </div>
+                <div class="showcase" >
+                    <div class="backdrop">
+                       <div class="modal">
+                           <div class="modal-header">
+                               <h3 class="headline3">Modal Heading</h3>
+                               <span class="material-icons close-icon" id="close" >close</span>
+
+                           </div>
+                           <p class="body1">
+                               Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum fugit tempore adipisci laboriosam. 
+                               Repellat animi blanditiis, est ut atque natus enim sed neque temporibus quasi maxime tenetur libero expedita consequatur?
+                            </p>
+                            <div class="modal-footer">
+                                <button class="btn btn-contained">Save</button>
+                                <button class="btn btn-outline">Discard</button>
+                            </div>
+                       </div>
+                   </div>
+                   <button class="btn btn-contained" id="modal-btn">Modal</button>
                 </div>
                 <div class="code-snippet">
                     <code>
                         <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%285%2C166%2C96%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=747.5&ds=true&dsyoff=15px&dsblur=32px&wc=true&wa=true&pv=44px&ph=30px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=168%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522img-responsive%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F400%252F400%2522%253E"
-                        style="width: 100%; height: 185px; border:0; transform: scale(1); overflow:hidden;"
+                        src="https://carbon.now.sh/embed?bg=rgba%285%2C166%2C96%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=747.5&ds=true&dsyoff=15px&dsblur=32px&wc=true&wa=true&pv=44px&ph=30px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=168%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522backdrop%2522%253E%2520%250A%2509%253Cdiv%2520class%253D%2522modal%2522%253E%250A%2509%2509%253Cdiv%2520class%253D%2522modal-header%2522%253E%250A%2509%2509%2509%253Ch3%2520class%253D%2522headline3%2522%253EModal%2520Heading%253C%252Fh3%253E%250A%2509%2509%2509%253Cspan%2520class%253D%2522material-icons%2520close-icon%2522%2520id%253D%2522close%2522%2520%253Eclose%253C%252Fspan%253E%250A%2509%2509%253C%252Fdiv%253E%250A%2509%2509%253Cp%2520class%253D%2522body1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520%250A%2509%2509%253C%252Fp%253E%250A%2509%2509%253Cdiv%2520class%253D%2522modal-footer%2522%253E%250A%2509%2509%2509%253Cbutton%2520class%253D%2522btn%2520btn-contained%2522%253ESave%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cbutton%2520class%253D%2522btn%2520btn-outline%2522%253EDiscard%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2509%253C%252Fdiv%253E%250A%2520%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                        style="width: 100%; height: 502px; border:0; transform: scale(1); overflow:hidden;"
                         sandbox="allow-scripts allow-same-origin">
                       </iframe>
-
                     </code>
                 </div>
             
             </section>     
-            <hr class="line-horz">               
-            <section>
+            <hr class="line-horz">
 
-                <h2 class="headline2">Round image</h2>
-                <p class="body1"> 
-                   to make image round or ellipse use 
-                    <span class="highlight-txt"> img-round </span>.
-                    if Image is not sqare and still  need round image use 
-                    <span class="highlight-txt"> img-round </span> and
-                    <span class="highlight-txt"> img-absolute-round </span> together.
-                </p>
-                <div class="showcase">
-                    <div class="img-container">
-                        <img class="img-responsive img-round" src="https://picsum.photos/400/400">
-                    </div>
-                    <div class="img-container">
-                        <img class="img-responsive img-round img-absolute-round" src="https://picsum.photos/400/600">
-                    </div>
-                </div>
-                <div class="code-snippet">
-                    <code>
-                        <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%285%2C166%2C96%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=747.5&ds=true&dsyoff=15px&dsblur=32px&wc=true&wa=true&pv=44px&ph=30px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=168%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522img-rnd%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F400%252F400%2522%253E%250A%253Cimg%2520class%253D%2522img-rnd%2520img-abs-rnd%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F400%252F600%2522%253E"
-                        style="width: 100%; height: 207px; border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
-                      </iframe>
-
-                    </code>
-                </div>
-            
-            </section>                    
 
         </div>
 

@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sinister-UI | Image</title>
+    <title>Sinister-UI | Modal</title>
     <link rel="icon" type="image/x-icon" href="../../assets/Sinister-UI.svg">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="../../components/main.css">
     <link rel="stylesheet" href="../../docs.css">
     <link rel="stylesheet" href="../../landing.css">
+    <script src="./modal.js" defer></script>
 </head>
 <body>
     <header class="navbar" >
@@ -70,7 +71,7 @@
                         Card
                     </li>
                 </a>
-                <a href="./image.html" class="btn btn-text btn-link teal text-on-button link-active" >
+                <a href="./image.html" class="btn btn-text btn-link teal text-on-button " >
                     <li>
                         Image
                     </li>
@@ -80,17 +81,17 @@
                         Input
                     </li>
                 </a>
-                <a href="../list/list.html" class="btn btn-text btn-link teal text-on-button" >
+                <a href="../list/list.html" class="btn btn-text btn-link teal text-on-button " >
                     <li>
                         List
                     </li>
                 </a>
-                <a href="../modal/modal.html" class="btn btn-text btn-link teal text-on-button " >
+                <a href="../modal/modal.html" class="btn btn-text btn-link teal text-on-button" >
                     <li>
                         Modal
                     </li>
                 </a>
-                <a href="../navigation/navigation.html" class="btn btn-text btn-link teal text-on-button " >
+                <a href="../navigation/navigation.html" class="btn btn-text btn-link teal text-on-button link-active" >
                     <li>
                         Navigation
                     </li>
@@ -110,71 +111,50 @@
         
         <div class="docs-body">
             <div class="pagination-head">
-                <a href="../card/card.html" class="btn btn-text">
+                <a href="../modal/modal.html" class="btn btn-text">
                     <span class="material-icons">arrow_back_ios</span>
                 </a>
-                <h1 class="headline1 text-center">Image</h1>
-                <a class="btn btn-text" href="../input/input.html">
+                <h1 class="headline1 text-center">Navigation</h1>
+                <a class="btn btn-text" href="../rating/rating.html">
                     <span class="material-icons">arrow_forward_ios</span>
                 </a>
             </div>
-            <p class="body1">to display image we provide responsive and round images</p>
+            <p class="body1">
+                The Navigation Bar displays information and actions relating to the current screen.
+            </p>
             <br>
             <section>
 
-                <h2 class="headline2">Responsive image</h2>
+                <h2 class="headline2">Navbar (Desktop)</h2>
                 <p class="body1"> 
-                   to meake image responeive use 
-                    <span class="highlight-txt"> img-responsive </span>.
+                    To implement Simple Desktop Navigation use <span class="highlight-txt">navbar</span> class.
                 </p>
-                <div class="showcase">
-                    <div class="img-container">
-                        <img class="img-responsive" src="https://picsum.photos/400/400">
-                    </div>
+                <div class="showcase" >
+                    <header class="navbar" >
+                        <p class="navbar-brand">
+                            <a href="../../index.html"  >SUI</a>
+                        </p>        
+                        <nav>
+                            <a href="#" class="btn btn-text teal" >Profile</a>        
+                            <a href="#" class="btn btn-text teal" >Account</a>        
+                            <a href="#" class="btn btn-text teal" >Dashboard</a>        
+                        </nav> 
+                
+                    </header>
                 </div>
                 <div class="code-snippet">
                     <code>
                         <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%285%2C166%2C96%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=747.5&ds=true&dsyoff=15px&dsblur=32px&wc=true&wa=true&pv=44px&ph=30px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=168%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522img-responsive%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F400%252F400%2522%253E"
-                        style="width: 100%; height: 185px; border:0; transform: scale(1); overflow:hidden;"
+                        src="https://carbon.now.sh/embed?bg=rgba%285%2C166%2C96%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=747.5&ds=true&dsyoff=15px&dsblur=32px&wc=true&wa=true&pv=44px&ph=30px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=168%25&si=false&es=2x&wm=false&code=%253Cheader%2520class%253D%2522navbar%2522%2520%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522navbar-brand%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520%2520%253ESUI%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fp%253E%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%253Cnav%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn%2520btn-text%2520teal%2522%2520%253EProfile%253C%252Fa%253E%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn%2520btn-text%2520teal%2522%2520%253EAccount%253C%252Fa%253E%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn%2520btn-text%2520teal%2522%2520%253EDashboard%253C%252Fa%253E%2520%250A%2520%2520%2520%2520%253C%252Fnav%253E%2520%250A%253C%252Fheader%253E"
+                        style="width: 100%; height: 389px; border:0; transform: scale(1); overflow:hidden;"
                         sandbox="allow-scripts allow-same-origin">
                       </iframe>
-
                     </code>
                 </div>
             
             </section>     
-            <hr class="line-horz">               
-            <section>
+            <hr class="line-horz">
 
-                <h2 class="headline2">Round image</h2>
-                <p class="body1"> 
-                   to make image round or ellipse use 
-                    <span class="highlight-txt"> img-round </span>.
-                    if Image is not sqare and still  need round image use 
-                    <span class="highlight-txt"> img-round </span> and
-                    <span class="highlight-txt"> img-absolute-round </span> together.
-                </p>
-                <div class="showcase">
-                    <div class="img-container">
-                        <img class="img-responsive img-round" src="https://picsum.photos/400/400">
-                    </div>
-                    <div class="img-container">
-                        <img class="img-responsive img-round img-absolute-round" src="https://picsum.photos/400/600">
-                    </div>
-                </div>
-                <div class="code-snippet">
-                    <code>
-                        <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%285%2C166%2C96%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=747.5&ds=true&dsyoff=15px&dsblur=32px&wc=true&wa=true&pv=44px&ph=30px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=168%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522img-rnd%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F400%252F400%2522%253E%250A%253Cimg%2520class%253D%2522img-rnd%2520img-abs-rnd%2522%2520src%253D%2522https%253A%252F%252Fpicsum.photos%252F400%252F600%2522%253E"
-                        style="width: 100%; height: 207px; border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
-                      </iframe>
-
-                    </code>
-                </div>
-            
-            </section>                    
 
         </div>
 
