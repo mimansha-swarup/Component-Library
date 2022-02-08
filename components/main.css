@@ -8,5 +8,7 @@
 @import url('./image/image.css');
 @import url('./input/input.css');
 @import url('./list/list.css');
+@import url('./modal/modal.css');
+@import url('./navigation/navigation.css');
 @import url('./rating/rating.css');
 @import url('./toast/toast.css');
