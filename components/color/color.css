@@ -1,0 +1,304 @@
+/* black background colors */
+.bg-black-00{
+    background-color: var(--color-black-00);
+}
+.bg-black-01{
+    background-color: var(--color-black-01);
+}
+.bg-black-02{
+    background-color: var(--color-black-02);
+}
+.bg-black-03{
+    background-color: var(--color-black-03);
+}
+.bg-black-04{
+    background-color: var(--color-black-04);
+}
+/* Black Color on font */
+.text-black-00{
+    color: var(--color-black-00);
+}
+.text-black-01{
+    color: var(--color-black-01);
+}
+.text-black-02{
+    color: var(--color-black-02);
+}
+.text-black-03{
+    color: var(--color-black-03);
+}
+.text-black-04{
+    color: var(--color-black-04);
+}
+/* --------- */
+
+/* wHITE BG COLOR */
+.bg-white-00{
+    background-color: var(--color-white-00);
+}
+.bg-white-01{
+    background-color: var(--color-white-01);
+}
+.bg-white-02{
+    background-color: var(--color-white-02);
+}
+.bg-white-03{
+    background-color: var(--color-white-03);
+}
+.bg-white-04{
+    background-color: var(--color-white-04);
+}
+/* white Color on font */
+.text-white-00{
+    color: var(--color-white-00);
+}
+.text-white-01{
+    color: var(--color-white-01);
+}
+.text-white-02{
+    color: var(--color-white-02);
+}
+.text-white-03{
+    color: var(--color-white-03);
+}
+.text-white-04{
+    color: var(--color-white-04);
+}
+/* --------- */
+
+/* red background colors */
+.bg-red-00{
+    background-color: var(--color-red-00);
+}
+.bg-red-01{
+    background-color: var(--color-red-01);
+}
+.bg-red-02{
+    background-color: var(--color-red-02);
+}
+.bg-red-03{
+    background-color: var(--color-red-03);
+}
+.bg-red-04{
+    background-color: var(--color-red-04);
+}
+/* red Color on font */
+.text-red-00{
+    color: var(--color-red-00);
+}
+.text-red-01{
+    color: var(--color-red-01);
+}
+.text-red-02{
+    color: var(--color-red-02);
+}
+.text-red-03{
+    color: var(--color-red-03);
+}
+.text-red-04{
+    color: var(--color-red-04);
+}
+/* --------- */
+
+/* green background colors */
+.bg-green-00{
+    background-color: var(--color-green-00);
+}
+.bg-green-01{
+    background-color: var(--color-green-01);
+}
+.bg-green-02{
+    background-color: var(--color-green-02);
+}
+.bg-green-03{
+    background-color: var(--color-green-03);
+}
+.bg-green-04{
+    background-color: var(--color-green-04);
+}
+/* green Color on font */
+.text-green-00{
+    color: var(--color-green-00);
+}
+.text-green-01{
+    color: var(--color-green-01);
+}
+.text-green-02{
+    color: var(--color-green-02);
+}
+.text-green-03{
+    color: var(--color-green-03);
+}
+.text-green-04{
+    color: var(--color-green-04);
+}
+/* --------- */
+
+/* blue background colors */
+.bg-blue-00{
+    background-color: var(--color-blue-00);
+}
+.bg-blue-01{
+    background-color: var(--color-blue-01);
+}
+.bg-blue-02{
+    background-color: var(--color-blue-02);
+}
+.bg-blue-03{
+    background-color: var(--color-blue-03);
+}
+.bg-blue-04{
+    background-color: var(--color-blue-04);
+}
+/* blue Color on font */
+.text-blue-00{
+    color: var(--color-blue-00);
+}
+.text-blue-01{
+    color: var(--color-blue-01);
+}
+.text-blue-02{
+    color: var(--color-blue-02);
+}
+.text-blue-03{
+    color: var(--color-blue-03);
+}
+.text-blue-04{
+    color: var(--color-blue-04);
+}
+/* --------- */
+
+/* yellow background colors */
+.bg-yellow-00{
+    background-color: var(--color-yellow-00);
+}
+.bg-yellow-01{
+    background-color: var(--color-yellow-01);
+}
+.bg-yellow-02{
+    background-color: var(--color-yellow-02);
+}
+.bg-yellow-03{
+    background-color: var(--color-yellow-03);
+}
+.bg-yellow-04{
+    background-color: var(--color-yellow-04);
+}
+/* yellow Color on font */
+.text-yellow-00{
+    color: var(--color-yellow-00);
+}
+.text-yellow-01{
+    color: var(--color-yellow-01);
+}
+.text-yellow-02{
+    color: var(--color-yellow-02);
+}
+.text-yellow-03{
+    color: var(--color-yellow-03);
+}
+.text-yellow-04{
+    color: var(--color-yellow-04);
+}
+/* --------- */
+
+/* orange background colors */
+.bg-orange-00{
+    background-color: var(--color-orange-00);
+}
+.bg-orange-01{
+    background-color: var(--color-orange-01);
+}
+.bg-orange-02{
+    background-color: var(--color-orange-02);
+}
+.bg-orange-03{
+    background-color: var(--color-orange-03);
+}
+.bg-orange-04{
+    background-color: var(--color-orange-04);
+}
+/* orange Color on font */
+.text-orange-00{
+    color: var(--color-orange-00);
+}
+.text-orange-01{
+    color: var(--color-orange-01);
+}
+.text-orange-02{
+    color: var(--color-orange-02);
+}
+.text-orange-03{
+    color: var(--color-orange-03);
+}
+.text-orange-04{
+    color: var(--color-orange-04);
+}
+/* --------- */
+
+/* teal background colors */
+.bg-teal-00{
+    background-color: var(--color-teal-00);
+}
+.bg-teal-01{
+    background-color: var(--color-teal-01);
+}
+.bg-teal-02{
+    background-color: var(--color-teal-02);
+}
+.bg-teal-03{
+    background-color: var(--color-teal-03);
+}
+.bg-teal-04{
+    background-color: var(--color-teal-04);
+}
+/* teal Color on font */
+.text-teal-00{
+    color: var(--color-teal-00);
+}
+.text-teal-01{
+    color: var(--color-teal-01);
+}
+.text-teal-02{
+    color: var(--color-teal-02);
+}
+.text-teal-03{
+    color: var(--color-teal-03);
+}
+.text-teal-04{
+    color: var(--color-teal-04);
+}
+/* --------- */
+
+/* purple background colors */
+.bg-purple-00{
+    background-color: var(--color-purple-00);
+}
+.bg-purple-01{
+    background-color: var(--color-purple-01);
+}
+.bg-purple-02{
+    background-color: var(--color-purple-02);
+}
+.bg-purple-03{
+    background-color: var(--color-purple-03);
+}
+.bg-purple-04{
+    background-color: var(--color-purple-04);
+}
+/* purple Color on font */
+.text-purple-00{
+    color: var(--color-purple-00);
+}
+.text-purple-01{
+    color: var(--color-purple-01);
+}
+.text-purple-02{
+    color: var(--color-purple-02);
+}
+.text-purple-03{
+    color: var(--color-purple-03);
+}
+.text-purple-04{
+    color: var(--color-purple-04);
+}
