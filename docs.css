@@ -112,13 +112,28 @@
     width: 100%;
 }
 
-
 .toast-showcase{
     height:400px;
     position: relative;
-
 }
 
+.mock-grid-box{
+    height: 50px; 
+    width: 50px; 
+    background-color: var(--color-teal-03);
+}
+
+.color-showcase{
+    gap: 1rem;
+}
+.color-head{
+    padding: 1rem .5rem;
+    height: 3rem;
+    align-items: baseline;
+}
+.color-body{
+    padding: 1rem .5rem;
+}
 @media screen and (max-width : 800px){
     .sidebar{
         display: none;
