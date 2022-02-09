@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sinister-UI | Rating</title>
+    <title>Sinister-UI | Grid</title>
     <link rel="icon" type="image/x-icon" href="../../assets/Sinister-UI.svg">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="../../components/main.css">
@@ -70,12 +70,12 @@
                         Card
                     </li>
                 </a>
-                <a href="../grid/grid.html" class="btn btn-text btn-link teal text-on-button " >
+                <a href="../grid/grid.html" class="btn btn-text btn-link teal text-on-button link-active" >
                     <li>
                         Grid
                     </li>
                 </a>
-                <a href="./image.html" class="btn btn-text btn-link teal text-on-button " >
+                <a href="./image.html" class="btn btn-text btn-link teal text-on-button" >
                     <li>
                         Image
                     </li>
@@ -85,7 +85,7 @@
                         Input
                     </li>
                 </a>
-                <a href="../list/list.html" class="btn btn-text btn-link teal text-on-button " >
+                <a href="../list/list.html" class="btn btn-text btn-link teal text-on-button" >
                     <li>
                         List
                     </li>
@@ -100,7 +100,7 @@
                         Navigation
                     </li>
                 </a>
-                <a href="../rating/rating.html" class="btn btn-text btn-link teal text-on-button link-active" >
+                <a href="../rating/rating.html" class="btn btn-text btn-link teal text-on-button " >
                     <li>
                         Rating
                     </li>
@@ -115,44 +115,73 @@
         
         <div class="docs-body">
             <div class="pagination-head">
-                <a href="../navigation/navigation.html" class="btn btn-text">
+                <a href="../card/card.html" class="btn btn-text">
                     <span class="material-icons">arrow_back_ios</span>
                 </a>
-                <h1 class="headline1 text-center">Rating</h1>
-                <a class="btn btn-text" href="../toast/toast.html">
+                <h1 class="headline1 text-center">Grid</h1>
+                <a class="btn btn-text" href="../image/image.html">
                     <span class="material-icons">arrow_forward_ios</span>
                 </a>
             </div>
-            <p class="body1">
-                Rating is generally use to rate.</p>
+            <p class="body1">The grid creates visual consistency between layouts while allowing flexibility across a wide variety of designs.</p>
             <br>
             <section>
 
-                <h2 class="headline2">Rating</h2>
-                <p class="body1"> 
-                    Material icons are used and use class <span class="highlight-txt">rated</span> 
+                <h2 class="headline2">2 x 2 Grids</h2>
+                <p class="body1">
+                    In Sinister-UI grid is based on 12-column grid layout. use
+                    <span class="highlight-txt">grid</span> class and to make 
+                    2 column grid use <span class="highlight-txt">grid-col-2</span> 
                 </p>
-                <div class="showcase ">
-                   <div class="rating-container">
-                        <span class="material-icons rated">star</span>
-                        <span class="material-icons rated">star</span>
-                        <span class="material-icons rated">star</span>
-                        <span class="material-icons ">star</span>
-                        <span class="material-icons ">star</span>
-                   </div>
+                
+                <div class="grid grid-col-2">
+                    <div class="mock-grid-box" ></div>
+                    <div class="mock-grid-box" ></div>
+                    <div class="mock-grid-box" ></div>
+                    <div class="mock-grid-box" ></div>
+                    <div class="mock-grid-box" ></div>
+                    <div class="mock-grid-box" ></div>                    
                 </div>
+     
                 <div class="code-snippet">
                     <code>
                         <iframe
-                        src="https://carbon.now.sh/embed?bg=rgba%285%2C166%2C96%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=747.5&ds=true&dsyoff=15px&dsblur=32px&wc=true&wa=true&pv=44px&ph=30px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=168%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522rating-container%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520rated%2522%253Estar%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520rated%2522%253Estar%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520rated%2522%253Estar%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520%2522%253Estar%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522material-icons%2520%2522%253Estar%253C%252Fspan%253E%250A%253C%252Fdiv%253E%250A"
-                        style="width: 100%; height: 326px; border:0; transform: scale(1); overflow:hidden;"
+                        src="https://carbon.now.sh/embed?bg=rgba%285%2C166%2C96%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=711&ds=true&dsyoff=15px&dsblur=32px&wc=true&wa=true&pv=44px&ph=30px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=168%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid%2520grid-col-2%2522%253E%250A%2520%2520%2520%2520%253Cdiv%253E...%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E...%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E...%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E...%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E...%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E...%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fdiv%253E"
+                        style="width: 100%; height: 327px; border:0; transform: scale(1); overflow:hidden;"
                         sandbox="allow-scripts allow-same-origin">
                       </iframe>
                     </code>
                 </div>
             
             </section>     
-          
+            <hr class="line-horz">               
+            <section>
+
+                <h2 class="headline2">3 x 3 Grids</h2>
+                <p class="body1"> 
+                    to make 2 column grid use 
+                    <span class="highlight-txt">grid-col-3</span>.
+                </p>
+                <div class="grid grid-col-3">
+                    <div class="mock-grid-box" ></div>
+                    <div class="mock-grid-box" ></div>
+                    <div class="mock-grid-box" ></div>
+                    <div class="mock-grid-box" ></div>
+                    <div class="mock-grid-box" ></div>
+                    <div class="mock-grid-box" ></div>                    
+                </div>
+                <div class="code-snippet">
+                    <code>
+                        <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%285%2C166%2C96%2C1%29&t=cobalt&wt=none&l=htmlmixed&width=747.5&ds=true&dsyoff=15px&dsblur=32px&wc=true&wa=true&pv=44px&ph=30px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=168%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid%2520grid-col-3%2522%253E%250A%2520%2520%2520%2520%253Cdiv%253E...%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E...%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E...%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E...%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E...%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%253E...%253C%252Fdiv%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%253C%252Fdiv%253E"
+                        style="width: 100%; height: 327px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                      </iframe>
+
+                    </code>
+                </div>
+            
+            </section>                    
 
         </div>
 

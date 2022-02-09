@@ -1,10 +1,12 @@
-@import url('./button/button.css');
 @import url('./typography/typography.css');
+@import url('./color/color.css');
+@import url('./button/button.css');
 @import url('./common/common.css');
 @import url('./alert/alert.css');
 @import url('./avatar/avatar.css');
 @import url('./badge/badge.css');
 @import url('./card/card.css');
+@import url('./grid/grid.css');
 @import url('./image/image.css');
 @import url('./input/input.css');
 @import url('./list/list.css');
