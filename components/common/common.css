@@ -3,120 +3,75 @@
 @import url('../typography/typography.css');
 
 *{
-    /* COLORS */
-    /* --Dark-4 : #C7C9D9 ;
-    --Dark-3 : #8F90A6 ;   
-    --Dark-2 : #555770 ;
-    --Dark-1 : #28293D ;
-    --Dark-0 : #1C1C28 ; */
-
+    /* Black Shades */
     --color-black-00 : #C7C9D9 ;
     --color-black-01 : #8F90A6 ;    /* Border */  
     --color-black-02 : #555770 ;
     --color-black-03 : #28293D ;
     --color-black-04 : #1C1C28 ;
 
-    /* --Light-0 : #E4E4EB ;    
-    --Light-1 : #EBEBF0 ;
-    --Light-2 : #F2F2F5 ;
-    --Light-3 : #FAFAFC ;   
-    --Light-4 : #FFFFFF ; */
-
+    /* White Shades */
     --color-white-00 : #E4E4EB ;    
     --color-white-01 : #EBEBF0 ;
     --color-white-02 : #F2F2F5 ;
     --color-white-03 : #FAFAFC ;    /* Border */  
     --color-white-04 : #FFFFFF ;
     
-    /* --Red-3 : #FF8080 ;    
-    --Red-2 : #FF5C5C ;
-    --Red-1 : #FF3B3B ;    
-    --Red-0 : #E53535 ;    
-    --Red-4 : #623A42 ; */
-
+    /*Red Shades */    
     --color-red-00 : #FF8080 ;    
     --color-red-01 : #FF5C5C ;
     --color-red-02 : #FF3B3B ;    /* Border */
     --color-red-03 : #E53535 ;    
     --color-red-04 : #623A42 ;
-
     
-    /* --Green-3 : #57EBA1 ;    
-    --Green-2 : #39D98A ;
-    --Green-1 : #06C270 ;    
-    --Green-0 : #05A660 ;    
-    --Green-4 : #286053 ; */
-
+    /*Green Shades */
     --color-green-00 : #57EBA1 ;    
     --color-green-01 : #39D98A ;
     --color-green-02 : #06C270 ;       /* Border */
     --color-green-03 : #05A660 ;    
     --color-green-04 : #286053 ;
- 
-    /* --Blue-3 : #9DBFF9 ;    
-    --Blue-2 : #5B8DEF ;
-    --Blue-1 : #0063F7 ;    
-    --Blue-0 : #004FC4 ;    
-    --Blue-4 : #163E72 ; */
 
+    /* Blue Shades */    
     --color-blue-00 : #9DBFF9 ;    
     --color-blue-01 : #5B8DEF ;
     --color-blue-02 : #0063F7 ;    /* Border */
     --color-blue-03 : #004FC4 ;    
     --color-blue-04 : #163E72 ;
-
-    /* --Yellow-3 : #FDED72 ;    
-    --Yellow-2 : #FDDD48 ;
-    --Yellow-1 : #FFCC00 ;    
-    --Yellow-0 : #E5B800 ;     
-    --Yellow-4 : #625B39 ; */
-
+    
+    /* Yellow Shades */    
     --color-yellow-00 : #FDED72 ;    
     --color-yellow-01 : #FDDD48 ;
     --color-yellow-02 : #FFCC00 ;    /* Border */
     --color-yellow-03 : #E5B800 ;     
     --color-yellow-04 : #625B39 ;
-
-    /* --Orange-3 : #FCCC75 ;    
-    --Orange-2 : #FDAC42 ;
-    --Orange-1 : #FF8800 ;
-    --Orange-0 : #E57A00 ;    
-    --Orange-4 : #624D3B ; */
-
+    
+    /* Orange Shades */    
     --color-orange-00 : #FCCC75 ;    
     --color-orange-01 : #FDAC42 ;
     --color-orange-02 : #FF8800 ;    /* Border */
     --color-orange-03 : #E57A00 ;    
     --color-orange-04 : #624D3B ;
-
-    /* --Teal-3 : #A9EFF2 ;    
-    --Teal-2 : #73DFE7 ;
-    --Teal-1 : #00CFDE ;   
-    --Teal-0 : #00B7C4 ;    
-    --Teal-4 : #3A6264 ; */
-
+    
+    /* Teal Shades */    
     --color-teal-00 : #A9EFF2 ;    
     --color-teal-01 : #73DFE7 ;
     --color-teal-02 : #00CFDE ;    /* Border */
     --color-teal-03 : #00B7C4 ;    
     --color-teal-04 : #3A6264 ;
     
-    /* --Purple-4 : #393D69 ;
-    --Purple-3 : #DDA5E9 ;    
-    --Purple-2 : #AC5DD9 ;   
-    --Purple-1 : #6600CC ; 
-    --Purple-0 : #4D0099 ;   */
-
+    /* Purple Shades */    
     --color-purple-00 : #DDA5E9 ;    
     --color-purple-01 : #AC5DD9 ;   /* Border */
     --color-purple-02 : #6600CC ; 
     --color-purple-03 : #4D0099 ;  
     --color-purple-04 : #393D69 ;
-
+    
     --color-grey:#bdbdbd;
 
+    /* Backdrop -color */
     --backdrop-color:rgba(0,0,0,.5);
-    
+
+    /* background -color accordingto elements */
     --Elevation--01: #26273B;   /* Focuesd Input */
     --Elevation-00 : #28293D ;   /* Bg, Alert, btn diabled, Input disabled*/
     --Elevation-01 : #2A2B40 ;   /* Card, Pressed, Button*/
@@ -126,7 +81,8 @@
     --Elevation-05 : #30324A ;   /* Picker, Popover */
     --Elevation-06 : #32334D ;   /* Modals, Dialogue */
     
-  
+    
+    /* Shadows */
     --Shadow--01 : inset 0rem 0.03125rem .25rem rgba(0, 0, 0, 0.32);
     --Shadow-01 : 0rem 0rem 0.0625rem rgba(40, 41, 61, 0.08), 0rem 0.0625rem 0.125rem rgba(0, 0, 0, 0.32);
     --Shadow-02 : 0rem 0rem 0.0625rem rgba(0, 0, 0, 0.04), 0rem 0.125rem .25rem rgba(0, 0, 0, 0.32);
@@ -134,13 +90,15 @@
     --Shadow-04 : 0rem 0.125rem .25rem rgba(0, 0, 0, 0.04), 0rem .5rem 1rem rgba(0, 0, 0, 0.32);
     --Shadow-05 : 0rem 0.125rem .5rem rgba(0, 0, 0, 0.04), 0rem 1rem 1.5rem rgba(0, 0, 0, 0.32);
     --Shadow-06 : 0rem 0.125rem .5rem rgba(0, 0, 0, 0.08), 0rem 20px 1.25rem rgba(0, 0, 0, 0.32);
-
+    
+    /* z-indexing */
     --z-index--1: -1;
     --z-index-0: 0;
     --z-index-1: 1 ;
     --z-index-2: 2;
     --z-index-3: 3;
- 
+    
+    /* Font variables */
     --font-heading:'Roboto', sans-serif;
     --font-body:'Open Sans', sans-serif;
     
@@ -182,4 +140,9 @@ body{
 }
 .flex-column{
     flex-direction: column;
+}
+/* margins */
+/* TODO: add more margins */
+.m-auto{
+    margin: auto ;
 }

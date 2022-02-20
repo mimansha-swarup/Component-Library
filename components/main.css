@@ -1,5 +1,3 @@
-@import url('./typography/typography.css');
-@import url('./color/color.css');
 @import url('./button/button.css');
 @import url('./common/common.css');
 @import url('./alert/alert.css');
@@ -14,3 +12,5 @@
 @import url('./navigation/navigation.css');
 @import url('./rating/rating.css');
 @import url('./toast/toast.css');
+@import url('./typography/typography.css');
+@import url('./color/color.css');
