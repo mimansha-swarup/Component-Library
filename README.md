@@ -5,8 +5,7 @@ It's Sinfully Good
 Add the following code into the <head> section of your project, to start using Sinister UI 
 
 ```html
-<link rel="stylesheet"
-href="https://sinister-ui.netlify.app/components/main.css" />
+<link rel="stylesheet" href="https://sinister-ui.netlify.app/components/main.css" />
 ```
 or
 
