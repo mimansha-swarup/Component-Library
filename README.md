@@ -32,6 +32,9 @@ Import in CSS file
 - Toast 
 ## Screenshot 
 ### Landing Page
-![Landing Page](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3jzpc1iod7dx3riqlteo.png)
+
+![image](https://user-images.githubusercontent.com/69811810/154858801-aec5ff38-ea68-42e9-a313-cfae0a8c8f84.png)
+
 
 ### Components page
+![image](https://user-images.githubusercontent.com/69811810/154858755-b2b8be68-cf4a-4e31-ac29-8df1199f7f6f.png)
