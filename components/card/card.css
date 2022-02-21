@@ -3,7 +3,7 @@
 .card {
     padding:.75rem;
     background-color: var(--Elevation-02);
-    width: 15em;
+    width: 17em;
     box-shadow: var(--Shadow-01);
     border-radius: .25rem;
     display: flex;
