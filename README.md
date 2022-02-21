@@ -10,7 +10,7 @@ Add the following code into the <head> section of your project, to start using S
 or
 
 Import in CSS file 
-```
+```css
 @import url(https://sinister-ui.netlify.app/components/main.css);
 ```
 
