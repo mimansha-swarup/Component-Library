@@ -1,0 +1,19 @@
+.slider{
+    appearance: none;
+    height: 7px;
+    background-color: var(--Elevation--01);
+    box-shadow: var(--Shadow--01);
+    border-radius: 12px;
+    
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; 
+    appearance: none;
+    width: 11px;
+    height: 11px;
+    background:var(--color-green-02);
+    box-shadow: var(--Shadow-03);
+    cursor: pointer;
+    border-radius: 50%;
+} 
